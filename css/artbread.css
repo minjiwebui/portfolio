@@ -58,16 +58,20 @@ li{list-style: none;}
 .top .topL{
     display: flex;
     gap: 20px;
-    margin: 0 321px 0 0;
+    margin: 0 325px 0 0;
+    height: 100%;
 }
 .top .tel{
-    flex: 1 0 253px;
+    flex: 1 0 249px;
     padding: 10px 30px;
     margin: 0 20px 0 0;
+    display: flex;
+    align-items: center;
 }
 .top .tel > span:nth-child(2){color: var(--colorGrey);}
 .top .tel > span:first-of-type{margin: 0 5px 0 0;}
-.top .topL > span{
+.top .submenu > span{
+    height: 40px;
     padding: 10px 30px;
     display: flex;
     align-items: center;
@@ -75,13 +79,14 @@ li{list-style: none;}
     width: 134px;
     cursor: pointer;
 }
-.top .topL > span::before{
+.top .submenu > span::before{
     content: "\f0c9";
     color: var(--colorGrey);
 }
 .top .topR{
     display: flex;
     gap: 20px;
+    height: 100%;
 }
 .top .topR > .gnb1{
     display: flex;
@@ -92,13 +97,33 @@ li{list-style: none;}
 }
 .top .topR .gnb1 > li{color: var(--colorGrey);}
 .top .topR .gnb1 > li:hover{color: var(--colorBlack);}
-.top .topR > .search{
-    padding: 10px;
-}
+.top .topR > .search{padding: 10px;}
 .top .topR .search a{
     content: "\f002";
     font-size: 20px;
+    display: flex;
+    align-items: center;
 }
+.top .submenu{position: relative;}
+.top .submenu ul{
+    width: 169px;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 30px;
+    gap: 10px;
+    background: var(--colorWhite);
+    border: 1px solid var(--colorLightGrey);
+    box-shadow: 3px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-size: 18px;
+}
+.top .submenu ul.on{display: flex;}
+.top .submenu ul li{color: var(--colorGrey);}
+.top .submenu ul li:hover{color: var(--colorBlack);}
 .header2{
     position: sticky;
     top: 0;
@@ -160,6 +185,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-bottom: 1px solid var(--colorLightGrey);
 }
 .sec02 .inner h3{
     font-size: 25px;
@@ -269,6 +295,10 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     font-size: 25px;
     font-weight: 700;
 }
+.sec04 h3 > a{
+    display: flex;
+    align-items: center;
+}
 .reviewbox{
     display: flex;
     gap: 10px;
@@ -348,6 +378,10 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     font-weight: 700;
 }
 .sec05 .inner h3 span > span:nth-of-type(2){display: none;}
+.sec05 h3 > a{
+    display: flex;
+    align-items: center;
+}
 .sec05 .inner ul:nth-of-type(2){display: none;}
 .sec05 .inner ul{
     width: 100%;

@@ -24,9 +24,10 @@ $(".newsL h3 span span").click(function(){
     $(this).addClass('on').siblings().removeClass('on');
     $(".newsL ul").eq(tabindex).addClass('on').siblings().removeClass('on');
 });
-
-
-
+// top 서브메뉴(커뮤니티)
+$(".submenu").hover(function(){
+    $(".subgnb").toggleClass('on')
+});
 
 
 

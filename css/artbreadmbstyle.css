@@ -8,10 +8,12 @@ body header:first-of-type,
 .header2 .inner > a:last-of-type{
     font-size: 30px;
     display: unset;
+    display: flex;
+    align-items: center;
 }
 .header2 .inner{gap: 90px;}
 
-.sec01 .swiper{height: 500px;}
+.sec01 .swiper{height: 450px;}
 .sec01 .swiper-slide.img01{background: url(/portfolio/images/artbread/slide01mb.png) no-repeat 50% 50% / cover;}
 .sec01 .swiper-slide.img02{background: url(/portfolio/images/artbread/slide02mb.png) no-repeat 50% 50% / cover;}
 
