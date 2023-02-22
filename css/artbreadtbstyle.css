@@ -24,8 +24,8 @@ nav .gnb2{font-size: 15px;}
 nav a.logo{margin: -5px}
 
 .sec01{width: 100%;}
-.sec01 .swiper-slide.img01{background: url(/images/artbread/slide01tb.png) no-repeat 50% 50% / cover;}
-.sec01 .swiper-slide.img02{background: url(/images/artbread/slide02tb.png) no-repeat 50% 50% / cover;}
+.sec01 .swiper-slide.img01{background: url(/portfolio/images/artbread/slide01tb.png) no-repeat 50% 50% / cover;}
+.sec01 .swiper-slide.img02{background: url(/portfolio/images/artbread/slide02tb.png) no-repeat 50% 50% / cover;}
 
 .sec02{width: 100%;}
 

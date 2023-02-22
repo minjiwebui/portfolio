@@ -121,7 +121,7 @@ nav .inner{
 nav a.logo{
     width: 158px;
     height: 41px;
-    background: url(/images/artbread/logo.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/artbread/logo.png) no-repeat 50% 50% / cover;
     text-indent: -200px;
     overflow: hidden;
     margin: 0 135px 0 0;
@@ -143,11 +143,11 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     display: flex;
 }
 .sec01 .swiper-slide.img01{
-    background: url(/images/artbread/slide01.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/artbread/slide01.png) no-repeat 50% 50% / cover;
     cursor: pointer;
 }
 .sec01 .swiper-slide.img02{
-    background: url(/images/artbread/slide02.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/artbread/slide02.png) no-repeat 50% 50% / cover;
     cursor: pointer;
 }
 .swiper-pagination-bullet{
@@ -195,12 +195,12 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     height: 270px;
 }
 .sec03 .xbox .img01{
-    background: url(/images/artbread/pi01x.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/artbread/pi01x.png) no-repeat 50% 50% / cover;
     width: 325px;
     border-right: 1px solid var(--colorGrey);
 }
 .sec03 .xbox .img02{
-    background: url(/images/artbread/pi02x.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/artbread/pi02x.png) no-repeat 50% 50% / cover;
     width: 325px;
 }
 .sec03 .xbox .txtbox{
@@ -234,9 +234,9 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     height: 150px;
     cursor: pointer;
 }
-.sec03 .ybox .img01{background: url(/images/artbread/pi01y.png) no-repeat 50% 50% / cover;}
-.sec03 .ybox .img02{background: url(/images/artbread/pi02y.png) no-repeat 50% 50% / cover;}
-.sec03 .ybox .img03{background: url(/images/artbread/pi03y.png) no-repeat 50% 50% / cover;}
+.sec03 .ybox .img01{background: url(/portfolio/images/artbread/pi01y.png) no-repeat 50% 50% / cover;}
+.sec03 .ybox .img02{background: url(/portfolio/images/artbread/pi02y.png) no-repeat 50% 50% / cover;}
+.sec03 .ybox .img03{background: url(/portfolio/images/artbread/pi03y.png) no-repeat 50% 50% / cover;}
 .sec04{
     width: 1200px;
     margin: 20px auto;
@@ -281,9 +281,9 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     width: 190px;
     height: 140px;
 }
-.rvblock .img01{background: url(/images/artbread/rv01.png) no-repeat 50% 50% / cover;}
-.rvblock .img02{background: url(/images/artbread/rv02.png) no-repeat 50% 50% / cover;}
-.rvblock .img03{background: url(/images/artbread/rv03.png) no-repeat 50% 50% / cover;}
+.rvblock .img01{background: url(/portfolio/images/artbread/rv01.png) no-repeat 50% 50% / cover;}
+.rvblock .img02{background: url(/portfolio/images/artbread/rv02.png) no-repeat 50% 50% / cover;}
+.rvblock .img03{background: url(/portfolio/images/artbread/rv03.png) no-repeat 50% 50% / cover;}
 .rvblock .txtbox{
     display: flex;
     flex-direction: column;
@@ -310,9 +310,9 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     width: 195px;
     height: 200px;
 }
-.sec04 .sns .snsbox a.img01{background: url(/images/artbread/sns01.png) no-repeat 50% 50% / cover;}
-.sec04 .sns .snsbox a.img02{background: url(/images/artbread/sns02.png) no-repeat 50% 50% / cover;}
-.sec04 .sns .snsbox a.img03{background: url(/images/artbread/sns03.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a.img01{background: url(/portfolio/images/artbread/sns01.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a.img02{background: url(/portfolio/images/artbread/sns02.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a.img03{background: url(/portfolio/images/artbread/sns03.png) no-repeat 50% 50% / cover;}
 .sec05{
     height: 308px;
     display: flex;
