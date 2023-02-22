@@ -269,8 +269,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
 .sec03 .ybox .img02{background: url(/portfolio/images/artbread/pi02y.png) no-repeat 50% 50% / cover;}
 .sec03 .ybox .img03{background: url(/portfolio/images/artbread/pi03y.png) no-repeat 50% 50% / cover;}
 .sec04{
-    /* width: 1200px; */
-    width: 100%;
+    width: 1200px;
     margin: 20px auto 150px;
     height: 333px;
     display: flex;
