@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* artbread tablet */
+
+.top .inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top .topL{margin: 0 50px 0 0;}
+.top .tel{
+    flex: 1 0 220px;
+    margin: 0px;
+}
+.top .topL span{font-size: 13px;}
+.top .topR .gnb1{font-size: 10px;}
+.top .topR .search a{font-size: 17px;}
+
+.header2 .inner{
+    width: 100%;
+    justify-content: space-around;
+}
+nav .gnb2{font-size: 15px;}
+nav a.logo{margin: -5px}
+
+.sec01{width: 100%;}
+.sec01 .swiper-slide.img01{background: url(/images/artbread/slide01tb.png) no-repeat 50% 50% / cover;}
+.sec01 .swiper-slide.img02{background: url(/images/artbread/slide02tb.png) no-repeat 50% 50% / cover;}
+
+.sec02{width: 100%;}
+
+.sec03 .inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec03 .xybox{
+    flex-direction: column;
+}
+.sec03 .xybox > div:nth-child(2){
+    width: auto;
+    height: 5px;
+    margin: 20px 0 20px 0;
+}
+.sec03 .xybox > div:nth-child(2){order: 2;}
+.sec03 .xbox{order: 3;}
+.sec03 .ybox{
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.sec03 .ybox div{width: 315px;}
+.sec03 .ybox .img03{display: none;}
+
+.sec04{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: 40px auto;
+}
+.sec04 .review,
+.sec04 .sns{justify-content: center;}
+.sec04 .inner h3 a{order: 2;}
+.sec04 .review,
+.sec04 .sns{justify-content: center;}
+.sec04 .review h3,
+.sec04 .sns h3{justify-content: center;}
+.sec04 .reviewbox,
+.sec04 .snsbox{justify-content: center;}
+.sec04 .review h3 a{
+    position: relative;
+    left: 187px;
+}
+.rvblock{width: 192px;}
+.sec04 .sns h3 a{
+    position: relative;
+    left: 184px;
+}
+.sec04 .sns .snsbox a{width: 200px;}
+
+.sec05 .newsR{display: none;}
+.sec05 .newsL{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.sec05 .newsL .inner{width: 600px;}
+.sec05 .newsL h3 > span{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.sec05 .newsL ul{
+    display: flex;
+    display: none;
+}
+.sec05 .newsL ul.on{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+.sec05 .newsL h3 span > span:nth-of-type(2){display: unset;}
+.sec05 .newsL h3 span > span.on{border-bottom: 6px solid #4D6846;}
+
+footer{width: 100%;}
+footer .inner{
+    margin: unset;
+}
+footer .copybox{
+    width: 600px;
+    margin: 20px 60px 20px 60px;
+}

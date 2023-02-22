@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* artbread mobile */
+
+body header:first-of-type,
+.header2 .gnb2{display: none;}
+.header2 .inner > a:first-of-type,
+.header2 .inner > a:last-of-type{
+    font-size: 30px;
+    display: unset;
+}
+.header2 .inner{gap: 90px;}
+
+.sec01 .swiper{height: 500px;}
+.sec01 .swiper-slide.img01{background: url(/images/artbread/slide01mb.png) no-repeat 50% 50% / cover;}
+.sec01 .swiper-slide.img02{background: url(/images/artbread/slide02mb.png) no-repeat 50% 50% / cover;}
+
+.sec02 .inner h3,
+.sec02 .inner span{font-size: 16px;}
+
+.sec03{
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+.sec03 .inner{margin: 0 25px 0 25px;}
+.sec03 h2{font-size: 27px;}
+.sec03 .xybox{width: 100%;}
+.sec03 .ybox div{width: 200px;}
+.sec03 .imgframe > div{display: none;}
+.sec03 .imgframe{
+    background: url(/images/artbread/pi03x.png) no-repeat 50% 50% / cover;
+    width: 431px;
+}
+.sec03 .xbox .txtbox p{font-size: 17px;}
+.sec03 .xbox .txtbox p:nth-child(2){font-size: 13px;}
+
+.sec04 .inner{margin: 0 25px;}
+.sec04 .reviewbox,
+.sec04 .snsbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rvblock{width: 192px;}
+.sec04 .inner h3 > span{
+    display: flex;
+    justify-content: center;
+}
+.sec04 .review h3 a{
+    position: relative;
+    left: 105px;
+}
+.sec04 .sns h3 a{
+    position: relative;
+    left: 100px;
+}
+.rvblock{width: 70%;}
+.rvblock > div:first-of-type{
+    width: 100%;
+    height: 220px;
+}
+.sec04 .sns .snsbox a{
+    width: 70%;
+    height: 300px;
+}
+
+.sec05 .inner{margin: 0 25px;}
+/* .sec05 .inner h3{font-size: 22px;} */
+.sec05 .inner ul li a{font-size: 14px;}
+
+footer .copybox{
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    margin: 20px 25px 20px 25px;
+}
+footer .copybox{gap: 30px;}
+.cs .copytxt p:nth-of-type(1){
+    font-size: 25px;
+    font-weight: 700;
+}
+.company .copytxt p:nth-of-type(3),
+.company .copytxt p:nth-of-type(4),
+.company .copytxt p:nth-of-type(5),
+.company .copytxt p:nth-of-type(7){display: none;}
+.copybox .company{order: 3;}
+.copybox .btbox{justify-content: flex-start;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
