@@ -11,14 +11,14 @@ body header:first-of-type,
     display: flex;
     align-items: center;
 }
-.header2 .inner{gap: 90px;}
+.header2 .inner{justify-content: space-around;}
 
 .sec01 .swiper{height: 450px;}
 .sec01 .swiper-slide.img01{background: url(/portfolio/images/artbread/slide01mb.png) no-repeat 50% 50% / cover;}
 .sec01 .swiper-slide.img02{background: url(/portfolio/images/artbread/slide02mb.png) no-repeat 50% 50% / cover;}
 
 .sec02 .inner h3,
-.sec02 .inner span{font-size: 16px;}
+.sec02 .inner span{font-size: 13px;}
 
 .sec03{
     width: 100%;
