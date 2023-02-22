@@ -186,6 +186,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     align-items: center;
     cursor: pointer;
     border-bottom: 1px solid var(--colorLightGrey);
+    margin: 0 0 200px 0;
 }
 .sec02 .inner h3{
     font-size: 25px;
@@ -194,6 +195,10 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
 .sec02 .inner span{
     font-weight: 700;
     color: var(--colorGreen);
+}
+.sec03{
+    width: 100%;
+    margin: 0 0 200px 0;
 }
 .sec03 .inner{
     width: 1200px;
@@ -264,8 +269,9 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
 .sec03 .ybox .img02{background: url(/portfolio/images/artbread/pi02y.png) no-repeat 50% 50% / cover;}
 .sec03 .ybox .img03{background: url(/portfolio/images/artbread/pi03y.png) no-repeat 50% 50% / cover;}
 .sec04{
-    width: 1200px;
-    margin: 20px auto;
+    /* width: 1200px; */
+    width: 100%;
+    margin: 20px auto 150px;
     height: 333px;
     display: flex;
     gap: 20px
@@ -276,6 +282,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     display: flex;
 }
 .sec04 .review{
+    justify-content: flex-end;
     align-items: center;
 }
 .sec04 .sns{
@@ -405,7 +412,7 @@ footer{
 footer .inner{
     display: flex;
     justify-content: center;
-    margin: 20px 0 20px 0;
+    margin: 50px 0 50px 0;
 }
 footer .copybox{
     display: flex;
