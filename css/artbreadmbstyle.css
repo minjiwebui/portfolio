@@ -35,7 +35,7 @@ body header:first-of-type,
     height: 100vh;
     transform: translateX(0%);
     transition: transform 0.5s;
-    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.5);
 }
 .header2 .gnbmb .subgnbmb{
     width: 100%;
@@ -115,7 +115,7 @@ body header:first-of-type,
 
 .sec05 .inner{margin: 0 25px;}
 /* .sec05 .inner h3{font-size: 22px;} */
-.sec05 .inner ul li a{font-size: 13px;}
+.sec05 .inner ul li a{font-size: 14px;}
 
 footer .copybox{
     flex-direction: column;
