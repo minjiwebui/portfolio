@@ -74,6 +74,8 @@ body header:first-of-type,
 .sec03 .inner{margin: 0 25px 0 25px;}
 .sec03 h2{font-size: 27px;}
 .sec03 .xybox{width: 100%;}
+.sec03 .xbox{width: 100%;}
+.sec03 .pdbox{width: 100%;}
 .sec03 .ybox div{width: 100%;}
 .sec03 .imgframe > div{display: none;}
 .sec03 .imgframe{
