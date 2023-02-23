@@ -59,10 +59,12 @@ nav a.logo{margin: -5px}
     height: 100%;
     flex-direction: column;
     margin: 40px auto;
+    gap: 200px;
 }
 .sec04 .review,
 .sec04 .sns{justify-content: center;}
-.sec04 .inner{width: 80%;}
+.sec04 .review .inner{width: 100%;}
+.sec04 .sns .inner{width: 80%;}
 .sec04 .inner h3 a{order: 2;}
 .sec04 .review h3,
 .sec04 .sns h3{justify-content: center;}
@@ -72,6 +74,7 @@ nav a.logo{margin: -5px}
     position: relative;
     left: 187px;
 }
+.sec04 .swiper{width: 80%;}
 .sec04 .swiper-slide.rvblock{
     width: 100%;
 }

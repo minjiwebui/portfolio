@@ -36,19 +36,16 @@ $(".header2 .inner > i").click(function () {
 // sec04 모바일 리뷰 슬라이드
 var swiper2 = new Swiper(".reviewbox", {
     slidesPerView: 1,
-    spaceBetween: 10,
+    spaceBetween: 0,
     loop: true,
     navigation: {
         nextEl: ".reviewbox .swiper-button-next",
         prevEl: ".reviewbox .swiper-button-prev",
     },
-    pagination: {
-        el: ".reviewbox .swiper-pagination",
-        clickable: true,
-    },
     breakpoints: {
         640: {
-            slidesPerView: 3
+            slidesPerView: 3,
+            spaceBetween: 10
         },
     },
 });
