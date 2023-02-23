@@ -115,7 +115,7 @@ body header:first-of-type,
 
 .sec05 .inner{margin: 0 25px;}
 /* .sec05 .inner h3{font-size: 22px;} */
-.sec05 .inner ul li a{font-size: 14px;}
+.sec05 .inner ul li a{font-size: 13px;}
 
 footer .copybox{
     flex-direction: column;
