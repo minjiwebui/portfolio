@@ -62,9 +62,8 @@ nav a.logo{margin: -5px}
 }
 .sec04 .review,
 .sec04 .sns{justify-content: center;}
+.sec04 .inner{width: 80%;}
 .sec04 .inner h3 a{order: 2;}
-.sec04 .review,
-.sec04 .sns{justify-content: center;}
 .sec04 .review h3,
 .sec04 .sns h3{justify-content: center;}
 .sec04 .reviewbox,
@@ -73,12 +72,17 @@ nav a.logo{margin: -5px}
     position: relative;
     left: 187px;
 }
-.rvblock{width: 192px;}
+.sec04 .swiper-slide.rvblock{
+    width: 100%;
+}
 .sec04 .sns h3 a{
     position: relative;
     left: 184px;
 }
-.sec04 .sns .snsbox a{width: 200px;}
+.sec04 .sns .snsbox a{
+    width: 100%;
+    height: 220px;
+}
 
 .sec05 .newsR{display: none;}
 .sec05 .newsL{
@@ -87,7 +91,7 @@ nav a.logo{margin: -5px}
     display: flex;
     justify-content: center;
 }
-.sec05 .newsL .inner{width: 600px;}
+/* .sec05 .newsL .inner{width: 600px;} */
 .sec05 .newsL h3 > span{
     display: flex;
     gap: 30px;
@@ -110,6 +114,7 @@ footer .inner{
     margin: unset;
 }
 footer .copybox{
-    width: 600px;
+    /* width: 600px; */
+    width: 100%;
     margin: 20px 60px 20px 60px;
 }

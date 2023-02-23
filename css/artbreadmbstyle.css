@@ -86,10 +86,19 @@ body header:first-of-type,
 /* .sec04 .inner{margin: 0 25px;} */
 .sec04 .reviewbox{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
 }
-.rvblock{width: 192px;}
+.rvblock{
+    width: 100%;
+    flex: 0 0 192px;
+
+}
+.sec04 .inner{
+    width: 100%;
+    margin: 0 auto;
+}
 .sec04 .inner h3 > span{
     display: flex;
     justify-content: center;

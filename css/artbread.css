@@ -307,16 +307,21 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     display: flex;
     align-items: center;
 }
-.reviewbox{
+.sec04 .swiper.reviewbox{width: 100%;}
+.sec04 .swiper-wrapper{
+    width: 100%;
     display: flex;
     gap: 10px;
 }
-.rvblock{
+.sec04 .swiper-slide.rvblock{
     width: 100%;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
     border: 1px solid var(--colorGrey);
 }
 .rvblock > div:first-of-type{
-    width: 190px;
+    width: 100%;
     height: 140px;
 }
 .rvblock .img01{background: url(/portfolio/images/artbread/rv01.png) no-repeat 50% 50% / cover;}
@@ -345,7 +350,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     display: flex;
 }
 .sec04 .sns .snsbox a{
-    width: 195px;
+    width: 100%;
     height: 200px;
 }
 .sec04 .sns .snsbox a.img01{background: url(/portfolio/images/artbread/sns01.png) no-repeat 50% 50% / cover;}
