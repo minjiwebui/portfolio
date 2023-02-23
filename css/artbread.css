@@ -33,6 +33,7 @@ i > span{
     text-indent: -9999px;
     overflow: hidden;
 }
+
 a:link,
 a:visited{
     text-decoration: none;
@@ -159,9 +160,10 @@ nav .gnb2{
     font-weight: 700;
 }
 nav .gnb2 > li:hover{color: var(--colorGreen);}
-.header2 .inner > a:first-of-type,
+.header2 .inner > i:first-of-type,
 .header2 .inner > a:last-of-type{display: none;}
-
+.header2 .gnbmb{display: none;}
+.header2 .inner > i{display: none;}
 .sec01 .swiper{
     width: 100%;
     height: 600px;

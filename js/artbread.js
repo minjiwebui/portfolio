@@ -28,7 +28,11 @@ $(".newsL h3 span span").click(function(){
 $(".submenu").hover(function(){
     $(".subgnb").toggleClass('on')
 });
-
+// header 모바일 서브메뉴
+$(".header2 .inner > i").click(function() {
+    $(".gnbmb").toggleClass("on")
+    $(this).toggleClass("fa-times")
+})
 
 
 
