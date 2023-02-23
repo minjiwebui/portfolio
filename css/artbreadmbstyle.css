@@ -133,7 +133,6 @@ body header:first-of-type,
 .sec04 .sns .snsbox a:nth-of-type(8),
 .sec04 .sns .snsbox a:nth-of-type(9){display: unset;}
 
-.sec05 .inner{margin: 0 25px;}
 /* .sec05 .inner h3{font-size: 22px;} */
 .sec05 .inner ul li a{font-size: 14px;}
 
