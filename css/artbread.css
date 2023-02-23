@@ -351,6 +351,19 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
 .sec04 .sns .snsbox a.img01{background: url(/portfolio/images/artbread/sns01.png) no-repeat 50% 50% / cover;}
 .sec04 .sns .snsbox a.img02{background: url(/portfolio/images/artbread/sns02.png) no-repeat 50% 50% / cover;}
 .sec04 .sns .snsbox a.img03{background: url(/portfolio/images/artbread/sns03.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a.img04{background: url(/portfolio/images/artbread/sns04.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a.img05{background: url(/portfolio/images/artbread/sns05.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a.img06{background: url(/portfolio/images/artbread/sns06.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a.img07{background: url(/portfolio/images/artbread/sns07.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a.img08{background: url(/portfolio/images/artbread/sns08.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a.img09{background: url(/portfolio/images/artbread/sns09.png) no-repeat 50% 50% / cover;}
+.sec04 .sns .snsbox a:nth-of-type(4),
+.sec04 .sns .snsbox a:nth-of-type(5),
+.sec04 .sns .snsbox a:nth-of-type(6),
+.sec04 .sns .snsbox a:nth-of-type(7),
+.sec04 .sns .snsbox a:nth-of-type(8),
+.sec04 .sns .snsbox a:nth-of-type(9){display: none;}
+
 .sec05{
     height: 308px;
     display: flex;
