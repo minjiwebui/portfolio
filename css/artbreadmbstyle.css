@@ -108,10 +108,11 @@ body header:first-of-type,
     height: 220px;
 }
 .sec04 .sns .snsbox{
+    width: 100%;
     flex-flow: row wrap;
 }
 .sec04 .sns .snsbox a{
-    width: 30%;
+    width: 150px;
     height: 150px;
 }
 .sec04 .sns .snsbox a:nth-of-type(1),
