@@ -122,7 +122,7 @@ body header:first-of-type,
 .sec04 .sns .snsbox a:nth-of-type(6),
 .sec04 .sns .snsbox a:nth-of-type(7),
 .sec04 .sns .snsbox a:nth-of-type(8),
-.sec04 .sns .snsbox a:nth-of-type(9){border: 0.5 solid var(--colorWhite);}
+.sec04 .sns .snsbox a:nth-of-type(9){border: 1px solid var(--colorWhite);}
 .sec04 .sns .snsbox a:nth-of-type(4),
 .sec04 .sns .snsbox a:nth-of-type(5),
 .sec04 .sns .snsbox a:nth-of-type(6),
