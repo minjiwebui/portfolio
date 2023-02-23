@@ -3,11 +3,11 @@ var swiper1 = new Swiper(".basic01", {
     spaceBetween: 30,
     centeredSlides: true,
     effect: "fade",
-    loop:true,
+    loop: true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
-      },
+    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -19,22 +19,39 @@ var swiper1 = new Swiper(".basic01", {
     slidesPerView: 1,
 });
 // sec05 게시판 탭
-$(".newsL h3 span span").click(function(){
+$(".newsL h3 span span").click(function () {
     var tabindex = $(this).index();
     $(this).addClass('on').siblings().removeClass('on');
     $(".newsL ul").eq(tabindex).addClass('on').siblings().removeClass('on');
 });
 // top 서브메뉴(커뮤니티)
-$(".submenu").hover(function(){
-    $(".subgnb").toggleClass('on')
+$(".submenu").hover(function () {
+    $(".subgnb").toggleClass('on');
 });
 // header 모바일 서브메뉴
-$(".header2 .inner > i").click(function() {
-    $(".gnbmb").toggleClass("on")
-    $(this).toggleClass("fa-times")
-})
-
-
+$(".header2 .inner > i").click(function () {
+    $(".gnbmb").toggleClass("on");
+    $(this).toggleClass("fa-times");
+});
+// sec04 모바일 리뷰 슬라이드
+var swiper2 = new Swiper(".reviewbox", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    navigation: {
+        nextEl: ".reviewbox .swiper-button-next",
+        prevEl: ".reviewbox .swiper-button-prev",
+    },
+    pagination: {
+        el: ".reviewbox .swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 3
+        },
+    },
+});
 
 
 

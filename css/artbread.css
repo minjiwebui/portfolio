@@ -307,16 +307,12 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     display: flex;
     align-items: center;
 }
-.sec04 .swiper.reviewbox{width: 100%;}
-.sec04 .swiper-wrapper{
-    width: 100%;
-    display: flex;
-    gap: 10px;
-}
+.sec04 .swiper{width: 590px;}
+
 .sec04 .swiper-slide.rvblock{
     width: 100%;
     display: flex;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     flex-direction: column;
     border: 1px solid var(--colorGrey);
 }
