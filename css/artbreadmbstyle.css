@@ -3,18 +3,24 @@
 /* artbread mobile */
 
 body header:first-of-type,
-.header2 .gnb2{display: none;}
+.header2 .gnb2 {
+    display: none;
+}
 .header2 .inner > i:first-of-type,
-.header2 .inner > a:last-of-type{
+.header2 .inner > a:last-of-type {
     font-size: 30px;
     display: unset;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-.header2 .inner > i.fa-times{font-size: 37px;}
-.header2 .inner{justify-content: space-around;}
-.header2 .gnbmb{
+.header2 .inner > i.fa-times {
+    font-size: 37px;
+}
+.header2 .inner {
+    justify-content: space-around;
+}
+.header2 .gnbmb {
     display: unset;
     background: var(--colorWhite);
     width: 90%;
@@ -31,91 +37,137 @@ body header:first-of-type,
     padding: 100px 47px;
     gap: 20px;
 }
-.header2 .gnbmb.on{
+.header2 .gnbmb.on {
     height: 100vh;
     transform: translateX(0%);
     transition: transform 0.5s;
     box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.5);
 }
-.header2 .gnbmb .subgnbmb{
+.header2 .gnbmb .subgnbmb {
     width: 100%;
 }
-.header2 .gnbmb .subgnbmb ul{
+.header2 .gnbmb .subgnbmb ul {
     font-size: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.header2 .gnbmb .subgnbmb ul > li{color: var(--colorGrey);}
-.header2 .gnbmb .subgnbmb ul > li:hover{color: var(--colorBlack);}
-.header2 .inner > i{
+.header2 .gnbmb .subgnbmb ul > li {
+    color: var(--colorGrey);
+}
+.header2 .gnbmb .subgnbmb ul > li:hover {
+    color: var(--colorBlack);
+}
+.header2 .inner > i {
     display: block;
     position: relative;
     z-index: 100;
 }
-.header2 .gnbmb .subgnbmb:nth-of-type(2){
+.header2 .gnbmb .subgnbmb:nth-of-type(2) {
     border-top: 1px solid var(--colorBlack);
     border-bottom: 1px solid var(--colorBlack);
     padding: 20px 0;
 }
-
-.sec01 .swiper{height: 450px;}
-.sec01 .swiper-slide.img01{background: url(/portfolio/images/artbread/slide01mb.png) no-repeat 50% 50% / cover;}
-.sec01 .swiper-slide.img02{background: url(/portfolio/images/artbread/slide02mb.png) no-repeat 50% 50% / cover;}
-
-.sec02{margin: 0 0 50px 0;}
+.sec01 .swiper {
+    height: 450px;
+}
+.sec01 .swiper-slide.img01 {
+    background: url(/portfolio/images/artbread/slide01mb.png) no-repeat 50% 50% / cover;
+}
+.sec01 .swiper-slide.img02 {
+    background: url(/portfolio/images/artbread/slide02mb.png) no-repeat 50% 50% / cover;
+}
+.sec02 {
+    margin: 0 0 50px 0;
+}
 .sec02 .inner h3,
-.sec02 .inner span{font-size: 15px;}
-
-.sec03{
+.sec02 .inner span {
+    font-size: 15px;
+}
+.sec03 {
     width: 100%;
     display: flex;
     flex: 1;
     margin: 0 0 50px 0;
 }
-.sec03 .inner{margin: 0 25px 0 25px;}
-.sec03 h2{font-size: 27px;}
-.sec03 .xybox{width: 100%;}
-.sec03 .xbox{width: 100%;}
-.sec03 .pdbox{width: 100%;}
-.sec03 .ybox div{width: 100%;}
-.sec03 .imgframe > div{display: none;}
-.sec03 .imgframe{
+.sec03 .inner {
+    margin: 0 25px 0 25px;
+}
+.sec03 h2 {
+    font-size: 27px;
+}
+.sec03 .xybox {
+    width: 100%;
+}
+.sec03 .xbox {
+    width: 100%;
+}
+.sec03 .pdbox {
+    width: 100%;
+}
+.sec03 .ybox div {
+    width: 100%;
+}
+.sec03 .imgframe > div {
+    display: none;
+}
+.sec03 .imgframe {
     background: url(/portfolio/images/artbread/pi03x.png) no-repeat 50% 50% / cover;
     width: 100%;
 }
-.sec03 .xbox .txtbox p{font-size: 17px;}
-.sec03 .xbox .txtbox p:nth-child(2){font-size: 13px;}
-
-.sec04{
+.sec03 .xbox .txtbox p {
+    font-size: 17px;
+}
+.sec03 .xbox .txtbox p:nth-child(2) {
+    font-size: 13px;
+}
+.sec04 {
     gap: 50px;
     margin: 0 0 50px 0;
 }
-.sec04 .swiper{width: 100%;}
-.rvblock{width: 100%;}
-.sec04 .review .inner{width: 70%;}
-.sec04 .sns > .inner{width: 100%;}
-.sec04 .inner h3{width: 95%;}
-.sec04 .review h3{width: 100%;}
-.sec04 .inner h3 > span{
+.sec04 .swiper {
+    width: 100%;
+}
+.rvblock {
+    width: 100%;
+}
+.sec04 .review .inner {
+    width: 70%;
+}
+.sec04 .sns > .inner {
+    width: 100%;
+}
+.sec04 .inner h3 {
+    width: 95%;
+}
+.sec04 .review h3 {
+    width: 100%;
+}
+.sec04 .inner h3 > span {
     display: flex;
     justify-content: center;
 }
-.rvblock{width: 100%;}
-.rvblock > div:first-of-type{
+.rvblock {
+    width: 100%;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    text-shadow: 0 0 3px var(--colorBlack);
+}
+.rvblock > div:first-of-type {
     width: 100%;
     height: 250px;
 }
-.rvblock .txtbox{
+.rvblock .txtbox {
     gap: 15px;
     padding: 20px;
     font-size: 16px;
 }
-.sec04 .sns .snsbox{
+.sec04 .sns .snsbox {
     width: 100%;
     flex-flow: row wrap;
 }
-.sec04 .sns .snsbox a{
+.sec04 .sns .snsbox a {
     width: 30%;
     height: 140px;
 }
@@ -127,64 +179,46 @@ body header:first-of-type,
 .sec04 .sns .snsbox a:nth-of-type(6),
 .sec04 .sns .snsbox a:nth-of-type(7),
 .sec04 .sns .snsbox a:nth-of-type(8),
-.sec04 .sns .snsbox a:nth-of-type(9){border: 1px solid var(--colorWhite);}
+.sec04 .sns .snsbox a:nth-of-type(9) {
+    border: 1px solid var(--colorWhite);
+}
 .sec04 .sns .snsbox a:nth-of-type(4),
 .sec04 .sns .snsbox a:nth-of-type(5),
 .sec04 .sns .snsbox a:nth-of-type(6),
 .sec04 .sns .snsbox a:nth-of-type(7),
 .sec04 .sns .snsbox a:nth-of-type(8),
-.sec04 .sns .snsbox a:nth-of-type(9){display: unset;}
-
-.sec05{margin: 0 0 25px 0;}
+.sec04 .sns .snsbox a:nth-of-type(9) {
+    display: unset;
+}
+.sec05 {
+    margin: 0 0 25px 0;
+}
 /* .sec05 .inner h3{font-size: 22px;} */
-.sec05 .inner ul li a{font-size: 14px;}
-
-footer .copybox{
+.sec05 .inner ul li a {
+    font-size: 14px;
+}
+footer .copybox {
     flex-direction: column;
     align-items: flex-start;
     text-align: start;
     margin: 25px 25px 25px 25px;
 }
-footer .copybox{gap: 30px;}
-.cs .copytxt p:nth-of-type(1){
+footer .copybox {
+    gap: 30px;
+}
+.cs .copytxt p:nth-of-type(1) {
     font-size: 25px;
     font-weight: 700;
 }
 .company .copytxt p:nth-of-type(3),
 .company .copytxt p:nth-of-type(4),
 .company .copytxt p:nth-of-type(5),
-.company .copytxt p:nth-of-type(7){display: none;}
-.copybox .company{order: 3;}
-.copybox .btbox{justify-content: flex-start;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.company .copytxt p:nth-of-type(7) {
+    display: none;
+}
+.copybox .company {
+    order: 3;
+}
+.copybox .btbox {
+    justify-content: flex-start;
+}
