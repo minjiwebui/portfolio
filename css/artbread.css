@@ -12,7 +12,7 @@
     margin: 0;
     box-sizing: border-box;
     /* line-height: 1; */
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     word-break: keep-all;
     letter-spacing: -0.02rem;
     color: var(--colorBlack);
@@ -99,11 +99,12 @@ li{list-style: none;}
 .top .topR .gnb1 > li{color: var(--colorGrey);}
 .top .topR .gnb1 > li:hover{color: var(--colorBlack);}
 .top .topR > .search{padding: 10px;}
-.top .topR .search a{
+.top .topR .search i{
     content: "\f002";
     font-size: 20px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .top .submenu{position: relative;}
 .top .submenu ul{
@@ -295,7 +296,6 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     flex-direction: column;
 }
 .sec04 .inner h3{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -412,6 +412,20 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     justify-content: space-between;
 }
 .sec05 .inner ul.on{display: flex;}
+.sec05 .inner ul li{
+    padding-left: 10px;
+    position: relative;
+}
+.sec05 .inner ul li:before{
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background: var(--colorBlack);
+}
 .sec05 .inner ul li a{
     width: 100%;
     display: flex;

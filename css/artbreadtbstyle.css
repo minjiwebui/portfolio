@@ -15,7 +15,7 @@
 .top .topL span{font-size: 13px;}
 .top .submenu ul{font-size: 15px;}
 .top .topR .gnb1{font-size: 10px;}
-.top .topR .search a{font-size: 17px;}
+.top .topR .search i{font-size: 17px;}
 
 .header2 .inner{
     width: 100%;
@@ -62,25 +62,38 @@ nav a.logo{margin: -5px}
     gap: 200px;
 }
 .sec04 .review,
-.sec04 .sns{justify-content: center;}
+.sec04 .sns{
+   justify-content: center;
+}
 .sec04 .review .inner{width: 100%;}
 .sec04 .sns .inner{width: 80%;}
+.sec04 .inner h3{padding: 0 0 30px 0;}
 .sec04 .inner h3 a{order: 2;}
-.sec04 .review h3,
-.sec04 .sns h3{justify-content: center;}
+.sec04 .review h3{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+}
+.sec04 .sns h3{
+    position: relative;
+    width: unset;
+    justify-content: center;
+}
+.sec04 .review h3 > span:nth-of-type(2){justify-content: center; display: flex;}
 .sec04 .reviewbox,
 .sec04 .snsbox{justify-content: center;}
 .sec04 .review h3 a{
-    position: relative;
-    left: 187px;
+    position: absolute;
+    right: 0px;
+}
+.sec04 .sns h3 a{
+    position: absolute;
+    right: 0px;
 }
 .sec04 .swiper{width: 80%;}
 .sec04 .swiper-slide.rvblock{
     width: 100%;
-}
-.sec04 .sns h3 a{
-    position: relative;
-    left: 184px;
 }
 .sec04 .sns .snsbox a{
     width: 100%;
