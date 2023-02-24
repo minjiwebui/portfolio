@@ -189,7 +189,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     align-items: center;
     cursor: pointer;
     border-bottom: 1px solid var(--colorLightGrey);
-    margin: 0 0 200px 0;
+    margin: 0 0 150px 0;
 }
 .sec02 .inner h3{
     font-size: 25px;
@@ -201,7 +201,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
 }
 .sec03{
     width: 100%;
-    margin: 0 0 200px 0;
+    margin: 0 0 150px 0;
 }
 .sec03 .inner{
     width: 1200px;
@@ -276,7 +276,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
 .sec03 .ybox .img03{border: 1px solid var(--colorGrey);}
 .sec04{
     width: 1200px;
-    margin: 20px auto 150px;
+    margin: 0px auto 150px;
     height: 333px;
     display: flex;
     gap: 20px
@@ -373,6 +373,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
 .sec05{
     height: 308px;
     display: flex;
+    margin: 0 0 50px 0;
 }
 .sec05 > div {
     width: 50%;

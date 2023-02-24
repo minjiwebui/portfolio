@@ -63,6 +63,7 @@ body header:first-of-type,
 .sec01 .swiper-slide.img01{background: url(/portfolio/images/artbread/slide01mb.png) no-repeat 50% 50% / cover;}
 .sec01 .swiper-slide.img02{background: url(/portfolio/images/artbread/slide02mb.png) no-repeat 50% 50% / cover;}
 
+.sec02{margin: 0 0 50px 0;}
 .sec02 .inner h3,
 .sec02 .inner span{font-size: 15px;}
 
@@ -70,6 +71,7 @@ body header:first-of-type,
     width: 100%;
     display: flex;
     flex: 1;
+    margin: 0 0 50px 0;
 }
 .sec03 .inner{margin: 0 25px 0 25px;}
 .sec03 h2{font-size: 27px;}
@@ -85,10 +87,12 @@ body header:first-of-type,
 .sec03 .xbox .txtbox p{font-size: 17px;}
 .sec03 .xbox .txtbox p:nth-child(2){font-size: 13px;}
 
-.sec04 .swiper{width: 100%;}
-.rvblock{
-    width: 100%;
+.sec04{
+    gap: 50px;
+    margin: 0 0 50px 0;
 }
+.sec04 .swiper{width: 100%;}
+.rvblock{width: 100%;}
 .sec04 .review .inner{width: 70%;}
 .sec04 .sns > .inner{width: 100%;}
 .sec04 .inner h3{width: 95%;}
@@ -131,6 +135,7 @@ body header:first-of-type,
 .sec04 .sns .snsbox a:nth-of-type(8),
 .sec04 .sns .snsbox a:nth-of-type(9){display: unset;}
 
+.sec05{margin: 0 0 25px 0;}
 /* .sec05 .inner h3{font-size: 22px;} */
 .sec05 .inner ul li a{font-size: 14px;}
 
@@ -138,7 +143,7 @@ footer .copybox{
     flex-direction: column;
     align-items: flex-start;
     text-align: start;
-    margin: 20px 25px 20px 25px;
+    margin: 25px 25px 25px 25px;
 }
 footer .copybox{gap: 30px;}
 .cs .copytxt p:nth-of-type(1){
