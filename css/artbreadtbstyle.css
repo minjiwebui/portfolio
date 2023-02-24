@@ -26,6 +26,14 @@
 .top .topR .search i {
     font-size: 17px;
 }
+.top .topR .popup input{
+    width: 40%;
+    height: 40px;
+    border-bottom: 3px solid var(--colorWhite);
+    font-size: 25px;
+}
+.top .topR .popup i:nth-of-type(1){font-size: 40px;}
+.top .topR .popup i:nth-of-type(2){font-size: 50px;}
 .header2 .inner {
     width: 100%;
     justify-content: space-around;

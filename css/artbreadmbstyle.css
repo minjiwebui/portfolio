@@ -7,7 +7,7 @@ body header:first-of-type,
     display: none;
 }
 .header2 .inner > i:first-of-type,
-.header2 .inner > a:last-of-type {
+.header2 .inner > a:last-of-type{
     font-size: 30px;
     display: unset;
     display: flex;
@@ -67,6 +67,46 @@ body header:first-of-type,
     border-top: 1px solid var(--colorBlack);
     border-bottom: 1px solid var(--colorBlack);
     padding: 20px 0;
+}
+.header2 .popup{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+}
+.header2 .popup.on{
+    display: flex;
+    transform: translateY(0%);
+}
+.header2 .popup input{
+    width: 40%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid var(--colorWhite);
+    color: var(--colorWhite);
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.header2 .popup i:nth-of-type(1){
+    color: var(--colorWhite);
+    font-size: 50px;
+}
+.header2 .popup i:nth-of-type(2){
+    color: var(--colorWhite);
+    font-size: 60px;
+    position: absolute;
+    top: 40px;
+    right: 60px;
 }
 .sec01 .swiper {
     height: 450px;

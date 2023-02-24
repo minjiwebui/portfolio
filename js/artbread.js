@@ -3,8 +3,11 @@ $(".submenu").hover(function () {
     $(".subgnb").toggleClass('on');
 });
 // top 검색팝업창
-$(".popup").click(function() {
+$(".search > i").click(function() {
     $(".popup").addClass("on");
+});
+$(".popup .fa-times").click(function() {
+    $(".popup").removeClass("on");
 });
 // sec01 슬라이드
 var swiper1 = new Swiper(".basic01", {
@@ -31,6 +34,13 @@ $(".newsL h3 span span").click(function () {
     var tabindex = $(this).index();
     $(this).addClass('on').siblings().removeClass('on');
     $(".newsL ul").eq(tabindex).addClass('on').siblings().removeClass('on');
+});
+// header 모바일 검색팝업창
+$(".header2 i").click(function() {
+    $(".header2 .popup").addClass("on");
+});
+$(".header2 .popup .fa-times").click(function() {
+    $(".header2 .popup").removeClass("on");
 });
 // header 모바일 서브메뉴
 $(".header2 .inner > i").click(function () {

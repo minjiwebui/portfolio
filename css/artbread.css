@@ -157,13 +157,33 @@ li {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+}
+.top .topR .popup.on{
+    display: flex;
+    transform: translateY(0%);
 }
 .top .topR .popup input{
-    border-bottom: 5px solid var(--colorWhite);
+    width: 40%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid var(--colorWhite);
+    color: var(--colorWhite);
+    font-size: 30px;
+    padding: 20px 0px;
 }
-.top .topR .popup i{
+.top .topR .popup i:nth-of-type(1){
     color: var(--colorWhite);
     font-size: 50px;
+}
+.top .topR .popup i:nth-of-type(2){
+    color: var(--colorWhite);
+    font-size: 60px;
+    position: absolute;
+    top: 40px;
+    right: 60px;
 }
 .header2 {
     position: sticky;
@@ -212,6 +232,7 @@ nav .gnb2 > li:hover {
 .header2 .inner > i {
     display: none;
 }
+.header2 .popup{display: none;}
 .sec01 .swiper {
     width: 100%;
     height: 600px;
