@@ -271,6 +271,9 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
 .sec03 .ybox .img01{background: url(/portfolio/images/artbread/pi01y.png) no-repeat 50% 50% / cover;}
 .sec03 .ybox .img02{background: url(/portfolio/images/artbread/pi02y.png) no-repeat 50% 50% / cover;}
 .sec03 .ybox .img03{background: url(/portfolio/images/artbread/pi03y.png) no-repeat 50% 50% / cover;}
+.sec03 .ybox .img01,
+.sec03 .ybox .img02,
+.sec03 .ybox .img03{border: 1px solid var(--colorGrey);}
 .sec04{
     width: 1200px;
     margin: 20px auto 150px;
@@ -388,7 +391,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
     display: flex;
     flex-direction: column;
     width: 560px;
-    height: inherit;
+    height: 100%;
     padding: 30px 0;
     justify-content: center;
 }
@@ -409,7 +412,7 @@ nav .gnb2 > li:hover{color: var(--colorGreen);}
 .sec05 .inner ul:nth-of-type(2){display: none;}
 .sec05 .inner ul{
     width: 100%;
-    height: 138px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
