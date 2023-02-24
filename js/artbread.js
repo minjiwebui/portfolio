@@ -2,6 +2,10 @@
 $(".submenu").hover(function () {
     $(".subgnb").toggleClass('on');
 });
+// top 검색팝업창
+$(".popup").click(function() {
+    $(".popup").addClass("on");
+});
 // sec01 슬라이드
 var swiper1 = new Swiper(".basic01", {
     spaceBetween: 30,

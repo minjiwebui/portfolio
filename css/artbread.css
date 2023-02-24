@@ -145,6 +145,26 @@ li {
 .top .submenu ul li:hover {
     color: var(--colorBlack);
 }
+.top .topR .popup{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.top .topR .popup input{
+    border-bottom: 5px solid var(--colorWhite);
+}
+.top .topR .popup i{
+    color: var(--colorWhite);
+    font-size: 50px;
+}
 .header2 {
     position: sticky;
     top: 0;
