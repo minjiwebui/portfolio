@@ -442,6 +442,9 @@ nav .gnb2 > li:hover {
     width: 100%;
     height: 200px;
 }
+/* .sec04 .sns .snsbox > a:hover {
+    background: rgba(0, 0, 0, 0.7);
+} */
 .sec04 .sns .snsbox a.img01 {
     background: url(/portfolio/images/artbread/sns01.png) no-repeat 50% 50% / cover;
 }
