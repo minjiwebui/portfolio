@@ -7,6 +7,7 @@
 /* swiper 8.4.6 */
 
 /* artbread pc */
+
 * {
     padding: 0;
     margin: 0;
@@ -597,4 +598,32 @@ footer .copybox {
 .copybox .btbox a:hover {
     background: var(--colorBlack);
     color: var(--colorWhite);
+}
+.scroll{
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    background: var(--colorWhite);
+    border: 1px solid var(--colorGreen);
+}
+.scroll span{
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid var(--colorGreen);
+    color: var(--colorBlack);
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -1px;
+}
+.scroll span:hover,
+.scroll span.on{
+    background: rgba(0,0,0,0.2);
 }

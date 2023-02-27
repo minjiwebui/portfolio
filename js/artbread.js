@@ -63,9 +63,30 @@ var swiper2 = new Swiper(".reviewbox", {
         },
     },
 });
+// 스크롤 버튼
+$(".scroll span").each(function() {
+    var thisOffset = $("." + $(this).data('class')).offset().top;
+    console.log(thisOffset)
+    $(this).click(function() {
+        $("html, body").animate({
+            scrollTop: thisOffset - 80
+        }, 1000);
+        $(this).addClass('on').siblings().removeClass("on");
+    });
+});
 
+$(document).scroll(function() {
+    var scrolltop = $(window).scrollTop();
+    $("header, main > div,section, footer").each(function() {
+        if (scrolltop >= $(this).offset().top) {
+            $("span[data-class=" + $(this).attr('class') + "]").addClass('on').siblings().removeClass('on');
+            // $(this).addClass('on').siblings().removeClass('on');
 
-
+        } else if (scrolltop >= 1675) {
+            $("span[data-class=sec05]").addClass('on').siblings().removeClass('on');
+        }
+    });
+});
 
 
 
