@@ -36,14 +36,14 @@ $(".newsL h3 span span").click(function () {
     $(".newsL ul").eq(tabindex).addClass('on').siblings().removeClass('on');
 });
 // header 모바일 검색팝업창
-$(".header2 i").click(function() {
+$(".header2 .inner > .fa-search").click(function() {
     $(".header2 .popup").addClass("on");
 });
 $(".header2 .popup .fa-times").click(function() {
     $(".header2 .popup").removeClass("on");
 });
 // header 모바일 서브메뉴
-$(".header2 .inner > i").click(function () {
+$(".header2 .inner > .fa-bars").click(function () {
     $(".gnbmb").toggleClass("on");
     $(this).toggleClass("fa-times");
 });

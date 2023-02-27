@@ -156,7 +156,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 15px;
     transform: translateY(-100%);
     transition: transform 0.5s;
 }
@@ -165,14 +165,13 @@ li {
     transform: translateY(0%);
 }
 .top .topR .popup input{
-    width: 40%;
+    width: 45%;
     height: 50px;
     background: transparent;
     border: none;
     border-bottom: 4px solid var(--colorWhite);
     color: var(--colorWhite);
     font-size: 30px;
-    padding: 20px 0px;
 }
 .top .topR .popup i:nth-of-type(1){
     color: var(--colorWhite);
@@ -180,7 +179,7 @@ li {
 }
 .top .topR .popup i:nth-of-type(2){
     color: var(--colorWhite);
-    font-size: 60px;
+    font-size: 50px;
     position: absolute;
     top: 40px;
     right: 60px;
@@ -223,7 +222,7 @@ nav .gnb2 > li:hover {
     color: var(--colorGreen);
 }
 .header2 .inner > i:first-of-type,
-.header2 .inner > a:last-of-type {
+.header2 .inner > i:last-of-type {
     display: none;
 }
 .header2 .gnbmb {

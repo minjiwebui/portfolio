@@ -7,7 +7,7 @@ body header:first-of-type,
     display: none;
 }
 .header2 .inner > i:first-of-type,
-.header2 .inner > a:last-of-type{
+.header2 .inner > i:last-of-type{
     font-size: 30px;
     display: unset;
     display: flex;
@@ -79,7 +79,7 @@ body header:first-of-type,
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 15px;
     transform: translateY(-100%);
     transition: transform 0.5s;
 }
@@ -88,25 +88,26 @@ body header:first-of-type,
     transform: translateY(0%);
 }
 .header2 .popup input{
-    width: 40%;
-    height: 50px;
+    width: 45%;
+    height: 40px;
     background: transparent;
     border: none;
     border-bottom: 3px solid var(--colorWhite);
     color: var(--colorWhite);
-    font-size: 30px;
-    padding: 20px 0px;
+    font-size: 20px;
 }
 .header2 .popup i:nth-of-type(1){
     color: var(--colorWhite);
-    font-size: 50px;
+    font-size: 40px;
+    cursor: pointer;
 }
 .header2 .popup i:nth-of-type(2){
     color: var(--colorWhite);
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     top: 40px;
     right: 60px;
+    cursor: pointer;
 }
 .sec01 .swiper {
     height: 450px;
