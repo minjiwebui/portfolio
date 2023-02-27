@@ -200,3 +200,6 @@ footer .copybox {
     width: 80%;
     margin: 40px 60px 40px 60px;
 }
+.scroll{
+    display: none;
+}
