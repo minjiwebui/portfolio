@@ -293,6 +293,12 @@ nav .gnb2 > li:hover {
     line-height: 1;
     border: 1px solid var(--colorGrey);
 }
+.sec03 .pdbox{
+    display: none;
+}
+.sec03 .pdbox.on{
+    display: block;
+}
 .sec03 .pdbox > div:first-of-type {
     display: flex;
     height: 270px;
@@ -318,10 +324,6 @@ nav .gnb2 > li:hover {
 .sec03 .xbox .img05 {
     background: url(/portfolio/images/artbread/pi08x.png) no-repeat 50% 50% / cover;
     width: 650px;
-}
-.sec03 .xbox > div:nth-of-type(2),
-.sec03 .xbox > div:nth-of-type(3){
-    display: none;
 }
 .sec03 .xbox .txtbox {
     height: 136px;

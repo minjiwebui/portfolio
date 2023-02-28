@@ -35,6 +35,7 @@ $(".sec03 .ybox div").click(function(){
     $(this).addClass('on').siblings().removeClass('on');
     $(".sec03 .xbox .pdbox").eq(tabindex).addClass('on').siblings().removeClass('on');
 });
+$(".sec03 .ybox div").eq(0).trigger("click")
 // sec05 게시판 탭
 $(".newsL h3 span span").click(function () {
     var tabindex = $(this).index();
