@@ -36,6 +36,11 @@ $(".sec03 .ybox div").click(function(){
     $(".sec03 .xbox .pdbox").eq(tabindex).addClass('on').siblings().removeClass('on');
 });
 $(".sec03 .ybox div").eq(0).trigger("click")
+// sec04 SNS 아이콘 클릭 시 색상 변경 
+$(".snsbox .fa-heart").click(function() {
+    $(this).toggleClass("on")
+    return false
+});
 // sec05 게시판 탭
 $(".newsL h3 span span").click(function () {
     var tabindex = $(this).index();

@@ -473,6 +473,9 @@ nav .gnb2 > li:hover {
 .sec04 .sns .snsbox a:hover i{
     display: block;
 }
+.sec04 .sns .snsbox i.on{
+    color: red;
+}
 .sec04 .sns .snsbox a.img01 {
     background: url(/portfolio/images/artbread/sns01.png) no-repeat 50% 50% / cover;
 }
