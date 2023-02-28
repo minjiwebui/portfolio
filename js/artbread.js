@@ -29,6 +29,12 @@ var swiper1 = new Swiper(".basic01", {
     },
     slidesPerView: 1,
 });
+// sec03 이미지 탭
+$(".sec03 .ybox div").click(function(){
+    var tabindex = $(this).index();
+    $(this).addClass('on').siblings().removeClass('on');
+    $(".sec03 .xbox .pdbox").eq(tabindex).addClass('on').siblings().removeClass('on');
+});
 // sec05 게시판 탭
 $(".newsL h3 span span").click(function () {
     var tabindex = $(this).index();
@@ -74,7 +80,7 @@ $(".scroll span").each(function() {
         $(this).addClass('on').siblings().removeClass("on");
     });
 });
-
+// 섹션이동 시 리모콘(스크롤 버튼)에 하이라이트
 $(document).scroll(function() {
     var scrolltop = $(window).scrollTop();
     $("header, main > div,section, footer").each(function() {

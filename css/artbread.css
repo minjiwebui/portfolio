@@ -293,7 +293,7 @@ nav .gnb2 > li:hover {
     line-height: 1;
     border: 1px solid var(--colorGrey);
 }
-.sec03 .xbox .imgframe {
+.sec03 .pdbox > div:first-of-type {
     display: flex;
     height: 270px;
 }
@@ -305,6 +305,23 @@ nav .gnb2 > li:hover {
 .sec03 .xbox .img02 {
     background: url(/portfolio/images/artbread/pi02x.png) no-repeat 50% 50% / cover;
     width: 325px;
+}
+.sec03 .xbox .img03 {
+    background: url(/portfolio/images/artbread/pi04x.png) no-repeat 50% 50% / cover;
+    width: 325px;
+    border-right: 1px solid var(--colorGrey);
+}
+.sec03 .xbox .img04 {
+    background: url(/portfolio/images/artbread/pi05x.png) no-repeat 50% 50% / cover;
+    width: 325px;
+}
+.sec03 .xbox .img05 {
+    background: url(/portfolio/images/artbread/pi08x.png) no-repeat 50% 50% / cover;
+    width: 650px;
+}
+.sec03 .xbox > div:nth-of-type(2),
+.sec03 .xbox > div:nth-of-type(3){
+    display: none;
 }
 .sec03 .xbox .txtbox {
     height: 136px;

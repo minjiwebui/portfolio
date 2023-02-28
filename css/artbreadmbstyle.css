@@ -149,11 +149,25 @@ body header:first-of-type,
 .sec03 .ybox div {
     width: 100%;
 }
-.sec03 .imgframe > div {
+.sec03 .imgframe01 > div {
     display: none;
 }
-.sec03 .imgframe {
+.sec03 .imgframe02 > div {
+    display: none;
+}
+.sec03 .imgframe03 > div {
+    display: none;
+}
+.sec03 .imgframe01 {
     background: url(/portfolio/images/artbread/pi03x.png) no-repeat 50% 50% / cover;
+    width: 100%;
+}
+.sec03 .imgframe02 {
+    background: url(/portfolio/images/artbread/pi06x.png) no-repeat 50% 50% / cover;
+    width: 100%;
+}
+.sec03 .imgframe03 {
+    background: url(/portfolio/images/artbread/pi08x.png) no-repeat 50% 50% / cover;
     width: 100%;
 }
 .sec03 .xbox .txtbox p {
