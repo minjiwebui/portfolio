@@ -243,7 +243,7 @@ body header:first-of-type,
 .sec04 .sns .snsbox a:nth-of-type(7),
 .sec04 .sns .snsbox a:nth-of-type(8),
 .sec04 .sns .snsbox a:nth-of-type(9) {
-    display: unset;
+    display: flex;
 }
 .sec05 {
     margin: 0 0 25px 0;
