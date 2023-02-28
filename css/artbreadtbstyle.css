@@ -196,6 +196,7 @@ footer .inner {
 footer .copybox {
     width: 80%;
     margin: 40px 60px 40px 60px;
+    gap: 80px;
 }
 .scroll{
     display: none;
