@@ -89,10 +89,7 @@ nav a.logo {
     justify-content: space-between;
 }
 .sec03 .ybox div {
-    width: 315px;
-}
-.sec03 .ybox .img03 {
-    /* display: none; */
+    width: 100%;
 }
 .sec04 {
     width: 100%;
