@@ -249,6 +249,7 @@ nav .gnb2 > li:hover {
 .swiper-pagination-bullet {
     width: 11px;
     height: 11px;
+    border: 6px solid var(--colorWhite);
 }
 .sec02 {
     width: 100%;
@@ -295,6 +296,7 @@ nav .gnb2 > li:hover {
 }
 .sec03 .pdbox{
     display: none;
+    cursor: pointer;
 }
 .sec03 .pdbox.on{
     display: block;
@@ -375,6 +377,9 @@ nav .gnb2 > li:hover {
 .sec03 .ybox .img02,
 .sec03 .ybox .img03 {
     border: 1px solid var(--colorGrey);
+}
+.sec03 .ybox .img01{
+    order: 3;
 }
 .sec04 {
     width: 1200px;

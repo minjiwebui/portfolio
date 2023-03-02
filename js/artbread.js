@@ -35,7 +35,7 @@ $(".sec03 .ybox div").click(function(){
     $(this).addClass('on').siblings().removeClass('on');
     $(".sec03 .xbox .pdbox").eq(tabindex).addClass('on').siblings().removeClass('on');
 });
-$(".sec03 .ybox div").eq(0).trigger("click")
+$(".sec03 .ybox div").eq(1).trigger("click")
 // sec04 SNS 아이콘 클릭 시 색상 변경 
 $(".snsbox .fa-heart").click(function() {
     $(this).toggleClass("on")
@@ -99,6 +99,8 @@ $(document).scroll(function() {
         }
     });
 });
+
+
 
 
 
