@@ -13,7 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     /* line-height: 1; */
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     word-break: keep-all;
     letter-spacing: -0.02rem;
     color: var(--colorBlack);
@@ -25,6 +25,8 @@
     --colorGrey: #969696;
     --colorLightGrey: #d9d9d9;
     --colorGreen: #4d6846;
+    --colorblue: #6A9DB2;
+    --colorred: #EE7070;
     --swiper-theme-color: #ffffff;
 }
 i > span {
@@ -249,12 +251,83 @@ nav .gnb2 > li:hover {
 .header2 .inner > i {
     display: none;
 }
-.header2 .popup{display: none;}
-
-
-
-
-
+.header2 .popup{
+    display: none;
+}
+.sec01{
+    width: 100%;
+    margin: 100px 0 0 0;
+}
+.sec01 .inner{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 70px;
+}
+.sec01 .left{
+    width: 50%;
+    display: flex;
+    gap: 30px;
+}
+.sec01 .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid var(--colorBlack);
+    border-bottom: 2px solid var(--colorBlack);
+}
+.sec01 .leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+    height: 500px;
+}
+.sec01 .leftbox div{
+    cursor: pointer;
+}
+.sec01 .leftbox .img01{
+    background: url(/portfolio/images/artbread_sub/sec01pd01.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 25%;
+}
+.sec01 .leftbox .img02{
+    background: url(/portfolio/images/artbread_sub/sec01pd02.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 25%;
+}
+.sec01 .leftbox .img03{
+    background: url(/portfolio/images/artbread_sub/sec01pd03.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 25%;
+}
+.sec01 .rightbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sec01 .rightbox .img04{
+    background: url(/portfolio/images/artbread_sub/sec01pd01.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
+}
+.sec01 .rightbox .img05{
+    background: url(/portfolio/images/artbread_sub/sec01pd02.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
+}
+.sec01 .rightbox .img06{
+    background: url(/portfolio/images/artbread_sub/sec01pd03.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
+}
+.sec01 .rightbox div{
+    display: none;
+    cursor: pointer;
+}
+.sec01 .rightbox div.on{
+    display: block;
+}
 
 
 footer {
