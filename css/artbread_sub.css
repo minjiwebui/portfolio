@@ -464,11 +464,69 @@ nav .gnb2 > li:hover {
 
 
 
-
-
-
-
-
+.sec04 .inner{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px auto 50px;
+}
+.sec04 .btbox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.sec04 .btbox span{
+    border: 1px solid var(--colorLightGrey);
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sec04 table{
+    border-collapse: collapse;
+    border-bottom: 2px solid var(--colorBlack);
+}
+.sec04 caption{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: var(--colorGrey);
+}
+.sec04 .table01,
+.sec04 .table02{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.sec04 .table01 td > span,
+.sec04 .table02 td > span{
+    font-weight: 400;
+}
+.sec04 .table01 td,
+.sec04 .table02 td{
+    padding: 10px;
+    border: 1px solid var(--colorBlack);
+    border-left: none;
+    border-right: none;
+}
+.sec04 .table01 tr:first-of-type,
+.sec04 .table02 tr:first-of-type{
+    border-top: 2px solid var(--colorBlack);
+}
+.sec04 .table01 tr,
+.sec04 .table02 tr{
+    display: flex;
+    justify-content: space-between;
+}
+.sec04 .table02{
+    display: none;
+}
 footer {
     width: 100%;
     border-top: 1px solid var(--colorLightGrey);
