@@ -25,8 +25,8 @@
     --colorGrey: #969696;
     --colorLightGrey: #d9d9d9;
     --colorGreen: #4d6846;
-    --colorblue: #6A9DB2;
-    --colorred: #EE7070;
+    --colorblue: #0890CA;
+    --colorred: #F94545;
     --swiper-theme-color: #ffffff;
 }
 i > span {
@@ -265,12 +265,12 @@ nav .gnb2 > li:hover {
     gap: 70px;
 }
 .sec01 .left{
-    width: 50%;
+    width: 60%;
     display: flex;
     gap: 30px;
 }
 .sec01 .right{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     border-top: 2px solid var(--colorBlack);
@@ -279,9 +279,9 @@ nav .gnb2 > li:hover {
 .sec01 .leftbox{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    width: 30%;
-    height: 500px;
+    gap: 20px;
+    width: 20%;
+    height: 50%;
 }
 .sec01 .leftbox div{
     cursor: pointer;
@@ -305,6 +305,7 @@ nav .gnb2 > li:hover {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 70%;
 }
 .sec01 .rightbox .img04{
     background: url(/portfolio/images/artbread_sub/sec01pd01.png) no-repeat 50% 50% / cover;
@@ -328,6 +329,144 @@ nav .gnb2 > li:hover {
 .sec01 .rightbox div.on{
     display: block;
 }
+.sec01 .txtbox01{
+    display: flex;
+    flex-direction: column;
+    margin: 45px 0 40px 0;
+}
+.sec01 .txtbox01 p{
+    color: var(--colorblue);
+    font-weight: 500;
+}
+.sec01 .txtbox01 h3{
+    font-size: 25px;
+}
+.sec01 .txtbox02{
+    display: flex;
+    flex-direction: column;
+}
+.sec01 .txtbox02 p span{
+    color: var(--colorGrey);
+    font-size: 20px;
+    position: relative;
+}
+.sec01 .txtbox02 p span::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 55%;
+    background: var(--colorGrey);
+}
+.sec01 .txtbox02 h3 span{
+    color: var(--colorblue);
+    margin: 0 20px 0 0;
+}
+.sec01 .txtbox02 h3{
+    font-size: 30px;
+}
+.sec01 .right > p{
+    font-size: 14px;
+    margin: 30px 0 30px 0;
+}
+.sec01 .txtbox03{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sec01 .txtbox03 .sg01 span{
+    color: var(--colorred);
+    font-weight: 500;
+}
+.sec01 .txtbox03 .sg03{
+    display: flex;
+    gap: 60px;
+}
+.sec01 .txtbox03 .sg01,
+.sec01 .txtbox03 .sg02,
+.sec01 .txtbox03 .sg04{
+    display: flex;
+    gap: 30px;
+}
+.sec01 .btbox01{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--colorLightGrey);
+    border-bottom: 1px solid var(--colorLightGrey);
+    padding: 20px 0 20px 0;
+    gap: 60px;
+}
+.sec01 .btbox01 .sg05{
+    display: flex;
+    gap: 10px;
+}
+.sec01 .btbox01 .sg05 span{
+    border: 1px solid var(--colorLightGrey);
+    padding: 3px 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.sec01 .txtbox03 p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 14px;
+    margin: 10px 0 15px 0;
+    line-height: 1;
+}
+.sec01 .txtbox03 p span{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 5px 0 5px;
+}
+.sec01 .btbox02{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sec01 .btbox02 .top2{
+    display: flex;
+    height: 100%;
+}
+.sec01 .btbox02 .top2 a{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.sec01 .btbox02 .bottom{
+    display: flex;
+    height: 100%;
+    gap: 5px;
+    margin: 0 0 20px 0;
+}
+.sec01 .btbox02 .bottom a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: var(--colorWhite);
+    border: 1px solid var(--colorLightGrey);
+}
+.sec01 .btbox02 .bottom a:hover{
+    border: 1px solid var(--colorBlack);
+}
+
+
+
+
+
+
+
 
 
 footer {
