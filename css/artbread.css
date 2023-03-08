@@ -100,7 +100,8 @@ li {
     align-items: center;
     gap: 30px;
     padding: 10px 20px;
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
 }
 .top .topR .gnb1 > li {
     color: var(--colorGrey);
@@ -113,7 +114,8 @@ li {
 }
 .top .topR .search i {
     content: "\f002";
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -135,7 +137,8 @@ li {
     position: absolute;
     top: 40px;
     left: 0;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.125rem;
 }
 .top .submenu ul.on {
     display: flex;
@@ -172,15 +175,18 @@ li {
     border: none;
     border-bottom: 4px solid var(--colorWhite);
     color: var(--colorWhite);
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.875rem;
 }
 .top .topR .popup i:nth-of-type(1){
     color: var(--colorWhite);
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 3.125rem;
 }
 .top .topR .popup i:nth-of-type(2){
     color: var(--colorWhite);
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 3.125rem;
     position: absolute;
     top: 40px;
     right: 60px;
@@ -216,7 +222,8 @@ nav .gnb2 {
     display: flex;
     align-items: center;
     gap: 50px;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.125rem;
     font-weight: 700;
 }
 nav .gnb2 > li:hover {
@@ -262,7 +269,8 @@ nav .gnb2 > li:hover {
     margin: 0 0 150px 0;
 }
 .sec02 .inner h3 {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     font-weight: 400;
 }
 .sec02 .inner span {
@@ -282,7 +290,8 @@ nav .gnb2 > li:hover {
     display: flex;
     justify-content: center;
     margin: 0 0 20px 0;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.875rem;
     font-weight: 700;
 }
 .sec03 .xybox {
@@ -336,11 +345,13 @@ nav .gnb2 > li:hover {
     border-top: 1px solid var(--colorGrey);
 }
 .sec03 .xbox .txtbox p {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     font-weight: 400;
 }
 .sec03 .xbox .txtbox p:nth-child(2) {
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 1rem;
     color: var(--colorGrey);
 }
 .sec03 .xybox > div:nth-child(2) {
@@ -410,7 +421,8 @@ nav .gnb2 > li:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0 0 15px 0;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     font-weight: 700;
 }
 .sec04 h3 > a {
@@ -445,7 +457,8 @@ nav .gnb2 > li:hover {
     flex-direction: column;
     padding: 10px;
     gap: 10px;
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
     border-top: 1px solid var(--colorGrey);
 }
 .rvblock .txtbox > .title {
@@ -472,7 +485,8 @@ nav .gnb2 > li:hover {
 }
 .sec04 .sns .snsbox a i{
     color: var(--colorWhite);
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     display: none;
 }
 .sec04 .sns .snsbox a:hover i{
@@ -589,7 +603,8 @@ nav .gnb2 > li:hover {
     justify-content: space-between;
     align-items: center;
     margin: 0 0 20px 0;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     font-weight: 700;
 }
 .sec05 .inner h3 span > span:nth-of-type(2) {
@@ -652,7 +667,8 @@ footer .copybox {
     margin: 0 0 5px 0;
 }
 .copybox > div p {
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
 }
 .copybox > div > p:first-of-type {
     font-weight: 700;
@@ -667,7 +683,8 @@ footer .copybox {
 .copybox .btbox a {
     padding: 5px 10px;
     background: var(--colorLightGrey);
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
     font-weight: 400;
 }
 .copybox .btbox a:hover {

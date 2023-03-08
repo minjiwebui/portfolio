@@ -8,14 +8,16 @@ body header:first-of-type,
 }
 .header2 .inner > i:first-of-type,
 .header2 .inner > i:last-of-type{
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.875rem;
     display: unset;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 .header2 .inner > i.fa-times {
-    font-size: 37px;
+    /* font-size: 37px; */
+    font-size: 2.3125rem;
 }
 .header2 .inner {
     justify-content: space-around;
@@ -47,7 +49,8 @@ body header:first-of-type,
     width: 100%;
 }
 .header2 .gnbmb .subgnbmb ul {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -94,16 +97,19 @@ body header:first-of-type,
     border: none;
     border-bottom: 3px solid var(--colorWhite);
     color: var(--colorWhite);
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
 }
 .header2 .popup i:nth-of-type(1){
     color: var(--colorWhite);
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2.5rem;
     cursor: pointer;
 }
 .header2 .popup i:nth-of-type(2){
     color: var(--colorWhite);
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2.5rem;
     position: absolute;
     top: 40px;
     right: 60px;
@@ -123,7 +129,8 @@ body header:first-of-type,
 }
 .sec02 .inner h3,
 .sec02 .inner span {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
 }
 .sec03 {
     width: 100%;
@@ -135,7 +142,8 @@ body header:first-of-type,
     margin: 0 25px 0 25px;
 }
 .sec03 h2 {
-    font-size: 27px;
+    /* font-size: 27px; */
+    font-size: 1.6875rem;
 }
 .sec03 .xybox {
     width: 100%;
@@ -171,10 +179,13 @@ body header:first-of-type,
     width: 100%;
 }
 .sec03 .xbox .txtbox p {
-    font-size: 17px;
+    /* font-size: 17px; */
+    font-size: 1.0625rem;
 }
 .sec03 .xbox .txtbox p:nth-child(2) {
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.875rem;
+    line-height: 1.3;
 }
 .sec04 {
     gap: 50px;
@@ -216,7 +227,8 @@ body header:first-of-type,
 .rvblock .txtbox {
     gap: 15px;
     padding: 20px;
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 1rem;
 }
 .sec04 .sns .snsbox {
     width: 100%;
@@ -249,7 +261,8 @@ body header:first-of-type,
     margin: 0 0 25px 0;
 }
 .sec05 .inner ul li a {
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
 }
 footer .copybox {
     flex-direction: column;
@@ -259,7 +272,8 @@ footer .copybox {
     gap: 30px;
 }
 .cs .copytxt p:nth-of-type(1) {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     font-weight: 700;
 }
 .company .copytxt p:nth-of-type(3),
