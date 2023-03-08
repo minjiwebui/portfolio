@@ -27,8 +27,14 @@ $(".sec04 .btbox span").click(function () {
     $(this).addClass('on').siblings().removeClass('on');
     $(".sec04 .tablebox > div").eq(tabindex).addClass('on').siblings().removeClass('on');
 });
-
-
+// sec01 태블릿, 모바일 슬라이드
+var swiper = new Swiper(".basic02", {
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      hide: false,
+    },
+    loop: true
+  });
 
 
 

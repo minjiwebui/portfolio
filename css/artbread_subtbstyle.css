@@ -50,13 +50,77 @@ nav .gnb2 {
 nav a.logo {
     margin: -5px
 }
-
-
-
-
-
-
-
+.sec01{
+    margin: 0px 0 0 0;
+}
+.sec01 .inner{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: unset;
+}
+.sec01 .left{
+    width: 100%;
+    border-bottom: 1px solid var(--colorLightGrey);
+    padding: 0 0 45px 0;
+}
+.sec01 .right{
+    width: 80%;
+    border-top: none;
+    border-bottom: none;
+}
+.sec01 .swiper{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.sec01 .swiper-slide.img01 {
+    background: url(/portfolio/images/artbread_sub/sec01pd01.png) no-repeat 50% 50% / cover;
+    cursor: pointer;
+}
+.sec01 .swiper-slide.img02 {
+    background: url(/portfolio/images/artbread_sub/sec01pd02.png) no-repeat 50% 50% / cover;
+    cursor: pointer;
+}
+.sec01 .swiper-slide.img03 {
+    background: url(/portfolio/images/artbread_sub/sec01pd03.png) no-repeat 50% 50% / cover;
+    cursor: pointer;
+}
+.sec01 .swiper-slide.img04 {
+    background: url(/portfolio/images/artbread_sub/sec01pd04.png) no-repeat 50% 50% / cover;
+    cursor: pointer;
+}
+.sec01 .swiper-slide.img05 {
+    background: url(/portfolio/images/artbread_sub/sec01pd05.png) no-repeat 50% 50% / cover;
+    cursor: pointer;
+}
+.swiper-scrollbar-drag{
+    background: var(--colorBlack);
+}
+.sec01 .btbox02 .top2 > span{
+    width: 80%;
+}
+.sec01 .btbox02 .top2 > i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    font-size: 30px;
+    border: 1px solid var(--colorLightGrey);
+    cursor: pointer;
+}
+.sec01 .leftbox{
+    display: none;
+}
+.sec01 .rightbox{
+    display: none;
+}
+.sec01 .left > div:last-of-type{
+    display: unset;
+}
+.sec01 .btbox02 .bottom{
+    display: none;
+}
 footer {
     width: 100%;
 }

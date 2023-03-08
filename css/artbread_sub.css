@@ -1,8 +1,8 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 /* 구글폰트 noto sans korean */
-@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
-/* font-awsome v5.10.0 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+/* font-awsome v6.3.0 */
 @import url('https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
 /* swiper 8.4.6 */
 
@@ -27,7 +27,7 @@
     --colorGreen: #4d6846;
     --colorblue: #0890CA;
     --colorred: #F94545;
-    --swiper-theme-color: #ffffff;
+    --swiper-theme-color: #000000;
 }
 i > span {
     display: inline-block;
@@ -465,7 +465,7 @@ nav .gnb2 > li:hover {
     display: flex;
     height: 100%;
 }
-.sec01 .btbox02 .top2 a {
+.sec01 .btbox02 .top2 > span {
     display: flex;
     width: 100%;
     height: 70px;
@@ -477,6 +477,7 @@ nav .gnb2 > li:hover {
     /* font-size: 30px; */
     font-size: 1.875rem;
     letter-spacing: 5px;
+    cursor: pointer;
 }
 .sec01 .btbox02 .bottom {
     display: flex;
@@ -484,7 +485,7 @@ nav .gnb2 > li:hover {
     gap: 5px;
     margin: 0 0 20px 0;
 }
-.sec01 .btbox02 .bottom a {
+.sec01 .btbox02 .bottom span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -492,9 +493,16 @@ nav .gnb2 > li:hover {
     height: 50px;
     background: var(--colorWhite);
     border: 1px solid var(--colorLightGrey);
+    cursor: pointer;
 }
-.sec01 .btbox02 .bottom a:hover {
+.sec01 .btbox02 .bottom span:hover {
     border: 1px solid var(--colorBlack);
+}
+.sec01 .left > div:last-of-type{
+    display: none;
+}
+.sec01 .btbox02 .top2 > i{
+    display: none;
 }
 .sec02 {
     width: 100%;
