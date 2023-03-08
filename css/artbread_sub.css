@@ -54,7 +54,8 @@ li {
     border-bottom: 1px solid var(--colorLightGrey);
 }
 .banner .inner h3 {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     font-weight: 400;
 }
 .banner .inner span {
@@ -119,7 +120,8 @@ li {
     align-items: center;
     gap: 30px;
     padding: 10px 20px;
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
 }
 .top .topR .gnb1 > li {
     color: var(--colorGrey);
@@ -132,7 +134,8 @@ li {
 }
 .top .topR .search i {
     content: "\f002";
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -154,7 +157,8 @@ li {
     position: absolute;
     top: 40px;
     left: 0;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.125rem;
 }
 .top .submenu ul.on {
     display: flex;
@@ -165,7 +169,7 @@ li {
 .top .submenu ul li:hover {
     color: var(--colorBlack);
 }
-.top .topR .popup{
+.top .topR .popup {
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -180,26 +184,29 @@ li {
     transform: translateY(-100%);
     transition: transform 0.5s;
 }
-.top .topR .popup.on{
+.top .topR .popup.on {
     display: flex;
     transform: translateY(0%);
 }
-.top .topR .popup input{
+.top .topR .popup input {
     width: 45%;
     height: 50px;
     background: transparent;
     border: none;
     border-bottom: 4px solid var(--colorWhite);
     color: var(--colorWhite);
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.875rem;
 }
-.top .topR .popup i:nth-of-type(1){
+.top .topR .popup i:nth-of-type(1) {
     color: var(--colorWhite);
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 3.125rem;
 }
-.top .topR .popup i:nth-of-type(2){
+.top .topR .popup i:nth-of-type(2) {
     color: var(--colorWhite);
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 3.125rem;
     position: absolute;
     top: 40px;
     right: 60px;
@@ -235,7 +242,8 @@ nav .gnb2 {
     display: flex;
     align-items: center;
     gap: 50px;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.125rem;
     font-weight: 700;
 }
 nav .gnb2 > li:hover {
@@ -251,106 +259,128 @@ nav .gnb2 > li:hover {
 .header2 .inner > i {
     display: none;
 }
-.header2 .popup{
+.header2 .popup {
     display: none;
 }
-.sec01{
+.sec01 {
     width: 100%;
     margin: 100px 0 0 0;
 }
-.sec01 .inner{
+.sec01 .inner {
     width: 1200px;
     margin: 0 auto;
     display: flex;
     gap: 70px;
 }
-.sec01 .left{
+.sec01 .left {
     width: 60%;
     display: flex;
     gap: 30px;
 }
-.sec01 .right{
+.sec01 .right {
     width: 40%;
     display: flex;
     flex-direction: column;
     border-top: 2px solid var(--colorBlack);
     border-bottom: 2px solid var(--colorBlack);
 }
-.sec01 .leftbox{
+.sec01 .leftbox {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 20%;
-    height: 50%;
+    height: 70%;
 }
-.sec01 .leftbox div{
+.sec01 .leftbox div {
     cursor: pointer;
 }
-.sec01 .leftbox .img01{
+.sec01 .leftbox .img01 {
     background: url(/portfolio/images/artbread_sub/sec01pd01.png) no-repeat 50% 50% / cover;
     width: 100%;
     height: 25%;
 }
-.sec01 .leftbox .img02{
+.sec01 .leftbox .img02 {
     background: url(/portfolio/images/artbread_sub/sec01pd02.png) no-repeat 50% 50% / cover;
     width: 100%;
     height: 25%;
 }
-.sec01 .leftbox .img03{
+.sec01 .leftbox .img03 {
     background: url(/portfolio/images/artbread_sub/sec01pd03.png) no-repeat 50% 50% / cover;
     width: 100%;
     height: 25%;
 }
-.sec01 .rightbox{
+.sec01 .leftbox .img04 {
+    background: url(/portfolio/images/artbread_sub/sec01pd04.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 25%;
+}
+.sec01 .leftbox .img05 {
+    background: url(/portfolio/images/artbread_sub/sec01pd05.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 25%;
+}
+.sec01 .rightbox {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 70%;
 }
-.sec01 .rightbox .img04{
+.sec01 .rightbox .img01 {
     background: url(/portfolio/images/artbread_sub/sec01pd01.png) no-repeat 50% 50% / cover;
     width: 100%;
     height: 100%;
 }
-.sec01 .rightbox .img05{
+.sec01 .rightbox .img02 {
     background: url(/portfolio/images/artbread_sub/sec01pd02.png) no-repeat 50% 50% / cover;
     width: 100%;
     height: 100%;
 }
-.sec01 .rightbox .img06{
+.sec01 .rightbox .img03 {
     background: url(/portfolio/images/artbread_sub/sec01pd03.png) no-repeat 50% 50% / cover;
     width: 100%;
     height: 100%;
 }
-.sec01 .rightbox div{
+.sec01 .rightbox .img04 {
+    background: url(/portfolio/images/artbread_sub/sec01pd04.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
+}
+.sec01 .rightbox .img05 {
+    background: url(/portfolio/images/artbread_sub/sec01pd05.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
+}
+.sec01 .rightbox div {
     display: none;
     cursor: pointer;
 }
-.sec01 .rightbox div.on{
+.sec01 .rightbox div.on {
     display: block;
 }
-.sec01 .txtbox01{
+.sec01 .txtbox01 {
     display: flex;
     flex-direction: column;
     margin: 45px 0 40px 0;
 }
-.sec01 .txtbox01 p{
+.sec01 .txtbox01 p {
     color: var(--colorblue);
     font-weight: 500;
 }
-.sec01 .txtbox01 h3{
-    font-size: 25px;
+.sec01 .txtbox01 h3 {
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
 }
-.sec01 .txtbox02{
+.sec01 .txtbox02 {
     display: flex;
     flex-direction: column;
 }
-.sec01 .txtbox02 p span{
+.sec01 .txtbox02 p span {
     color: var(--colorGrey);
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     position: relative;
 }
-.sec01 .txtbox02 p span::before{
+.sec01 .txtbox02 p span::before {
     content: "";
     width: 100%;
     height: 2px;
@@ -360,37 +390,39 @@ nav .gnb2 > li:hover {
     top: 55%;
     background: var(--colorGrey);
 }
-.sec01 .txtbox02 h3 span{
+.sec01 .txtbox02 h3 span {
     color: var(--colorblue);
     margin: 0 20px 0 0;
 }
-.sec01 .txtbox02 h3{
-    font-size: 30px;
+.sec01 .txtbox02 h3 {
+    /* font-size: 30px; */
+    font-size: 1.875rem;
 }
-.sec01 .right > p{
-    font-size: 14px;
+.sec01 .right > p {
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     margin: 30px 0 30px 0;
 }
-.sec01 .txtbox03{
+.sec01 .txtbox03 {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.sec01 .txtbox03 .sg01 span{
+.sec01 .txtbox03 .sg01 span {
     color: var(--colorred);
     font-weight: 500;
 }
-.sec01 .txtbox03 .sg03{
+.sec01 .txtbox03 .sg03 {
     display: flex;
-    gap: 60px;
+    gap: 59px;
 }
 .sec01 .txtbox03 .sg01,
 .sec01 .txtbox03 .sg02,
-.sec01 .txtbox03 .sg04{
+.sec01 .txtbox03 .sg04 {
     display: flex;
     gap: 30px;
 }
-.sec01 .btbox01{
+.sec01 .btbox01 {
     display: flex;
     align-items: center;
     border-top: 1px solid var(--colorLightGrey);
@@ -398,39 +430,42 @@ nav .gnb2 > li:hover {
     padding: 20px 0 20px 0;
     gap: 60px;
 }
-.sec01 .btbox01 .sg05{
+.sec01 .btbox01 .sg05 {
     display: flex;
     gap: 10px;
 }
-.sec01 .btbox01 .sg05 span{
+.sec01 .btbox01 .sg05 span {
     border: 1px solid var(--colorLightGrey);
     padding: 3px 5px;
     cursor: pointer;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
 }
-.sec01 .txtbox03 p{
+.sec01 .txtbox03 p {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     margin: 10px 0 15px 0;
     line-height: 1;
 }
-.sec01 .txtbox03 p span{
-    font-size: 25px;
+.sec01 .txtbox03 p span {
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     font-weight: 700;
     margin: 0 5px 0 5px;
 }
-.sec01 .btbox02{
+.sec01 .btbox02 {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.sec01 .btbox02 .top2{
+.sec01 .btbox02 .top2 {
     display: flex;
     height: 100%;
 }
-.sec01 .btbox02 .top2 a{
+.sec01 .btbox02 .top2 a {
     display: flex;
     width: 100%;
     height: 70px;
@@ -439,16 +474,17 @@ nav .gnb2 > li:hover {
     justify-content: center;
     align-items: center;
     box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.3);
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.875rem;
     letter-spacing: 5px;
 }
-.sec01 .btbox02 .bottom{
+.sec01 .btbox02 .bottom {
     display: flex;
     height: 100%;
     gap: 5px;
     margin: 0 0 20px 0;
 }
-.sec01 .btbox02 .bottom a{
+.sec01 .btbox02 .bottom a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -457,164 +493,250 @@ nav .gnb2 > li:hover {
     background: var(--colorWhite);
     border: 1px solid var(--colorLightGrey);
 }
-.sec01 .btbox02 .bottom a:hover{
+.sec01 .btbox02 .bottom a:hover {
     border: 1px solid var(--colorBlack);
 }
-.sec02{
+.sec02 {
     width: 100%;
 }
-.sec02 .inner{
+.sec02 .inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 100px;
     width: 1000px;
     margin: 100px auto 50px;
 }
-.sec02 .iconallbox{
+.sec02 .inner .top3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+.sec02 .titlebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+.sec02 .top3 .titlebox span {
+    /* font-size: 20px; */
+    font-size: 1.25rem;
+}
+.sec02 .top3 .titlebox h3 {
+    /* font-size: 35px; */
+    font-size: 2.1875rem;
+}
+.sec02 .iconallbox {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.sec02 .iconbox{
+.sec02 .iconbox {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
     width: 27%;
-    height: 430px;
+    height: 305px;
 }
-.sec02 .iconbox .img01{
-        background: url(/portfolio/images/artbread_sub/sec02img01.png) no-repeat 50% 50% / cover;
-        width: 100%;
-        height: 65%;
+.sec02 .iconbox .img01 {
+    background: url(/portfolio/images/artbread_sub/sec02img01.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
 }
-.sec02 .iconbox .img02{
-        background: url(/portfolio/images/artbread_sub/sec02img02.png) no-repeat 50% 50% / cover;
-        width: 100%;
-        height: 65%;
+.sec02 .iconbox .img02 {
+    background: url(/portfolio/images/artbread_sub/sec02img02.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
 }
-.sec02 .iconbox .img03{
-        background: url(/portfolio/images/artbread_sub/sec02img03.png) no-repeat 50% 50% / cover;
-        width: 100%;
-        height: 65%;
+.sec02 .iconbox .img03 {
+    background: url(/portfolio/images/artbread_sub/sec02img03.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
 }
-.sec02 .iconbox span{
-    font-size: 25px;
+.sec02 .iconbox span {
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     font-weight: 700;
 }
-
-.sec03{
+.sec02 .inner .bottom {
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    gap: 30px;
+    width: 100%;
+}
+.sec02 .bottom .titlebox h3 {
+    /* font-size: 35px; */
+    font-size: 2.1875rem;
+}
+.sec02 .bottom .titlebox span {
+    /* font-size: 20px; */
+    font-size: 1.25rem;
+}
+.sec02 .imgallbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+.sec02 .imgbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    text-align: center;
+    width: 35%;
+    height: 300px;
+}
+.sec02 .imgbox .img04 {
+    background: url(/portfolio/images/artbread_sub/sec02img04.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
+}
+.sec02 .imgbox .img05 {
+    background: url(/portfolio/images/artbread_sub/sec02img05.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
+}
+.sec02 .imgbox .img06 {
+    background: url(/portfolio/images/artbread_sub/sec02img06.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
+}
+.sec02 .imgbox .img07 {
+    background: url(/portfolio/images/artbread_sub/sec02img07.png) no-repeat 50% 50% / cover;
+    width: 100%;
+    height: 100%;
+}
+.sec02 .imgbox span {
+    width: 100%;
+    /* font-size: 23px; */
+    font-size: 1.4375rem;
+    font-weight: 700;
+    border-bottom: 2px solid var(--colorBlack);
+    padding: 0 0 30px 0;
+}
+.sec03 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     width: 1000px;
-    margin: 50px auto 50px;
+    margin: 100px auto 100px;
 }
 .sec03 > div {
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 50px;
 }
-.sec03 .imgbox{
+.sec03 .imgbox {
     display: flex;
     width: 50%;
     height: 265px;
 }
-.sec03 .imgbox .img01{
+.sec03 .imgbox .img01 {
     background: url(/portfolio/images/artbread_sub/sec03pd01.png) no-repeat 50% 50% / cover;
     width: 100%;
 }
-.sec03 .imgbox .img02{
+.sec03 .imgbox .img02 {
     background: url(/portfolio/images/artbread_sub/sec03pd02.png) no-repeat 50% 50% / cover;
     width: 100%;
 }
-.sec03 .txtbox{
+.sec03 .txtbox {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 25px;
 }
-.sec03 .txtbox h3{
+.sec03 .txtbox h3 {
     color: var(--colorGreen);
-    font-size: 25px;
+    /* font-size: 30px; */
+    font-size: 1.875rem;
 }
-.sec03 .txtbox p{
-    font-size: 20px;
+.sec03 .txtbox p {
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     padding: 0 0 0 10px;
 }
-.sec03 .product02 div:first-of-type{
+.sec03 .product02 div:first-of-type {
     order: 2;
 }
-.sec04 .inner{
+.sec04 .inner {
     width: 27%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 15px;
-    margin: 50px auto 50px;
+    margin: 50px auto 100px;
 }
-.sec04 .btbox{
+.sec04 .btbox {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.sec04 .btbox span{
+.sec04 .btbox span {
     border: 1px solid var(--colorLightGrey);
     padding: 5px 10px;
-    font-size: 20px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     cursor: pointer;
 }
-.sec04 .btbox span.on{
+.sec04 .btbox span.on {
     background: var(--colorBlack);
     color: var(--colorWhite);
 }
-.sec04 h3{
-    font-size: 35px;
+.sec04 h3 {
+    /* font-size: 35px; */
+    font-size: 2.1875rem;
 }
-.sec04 table{
+.sec04 table {
     border-collapse: collapse;
     border-bottom: 2px solid var(--colorBlack);
 }
-.sec04 caption{
+.sec04 caption {
     display: flex;
     justify-content: flex-start;
     margin: 0 0 10px 0;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     color: var(--colorGrey);
 }
 .sec04 .table01,
-.sec04 .table02{
+.sec04 .table02 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     font-weight: 700;
 }
 .sec04 .table01 td > span,
-.sec04 .table02 td > span{
+.sec04 .table02 td > span {
     font-weight: 400;
 }
 .sec04 .table01 td,
-.sec04 .table02 td{
+.sec04 .table02 td {
     padding: 10px;
     border: 1px solid var(--colorBlack);
     border-left: none;
     border-right: none;
 }
 .sec04 .table01 tr:first-of-type,
-.sec04 .table02 tr:first-of-type{
+.sec04 .table02 tr:first-of-type {
     border-top: 2px solid var(--colorBlack);
 }
-.sec04 .tablebox > div{
+.sec04 .tablebox > div {
     display: none;
 }
-.sec04 .tablebox > div.on{
+.sec04 .tablebox > div.on {
     display: flex;
 }
 footer {
@@ -636,7 +758,8 @@ footer .copybox {
     margin: 0 0 5px 0;
 }
 .copybox > div p {
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
 }
 .copybox > div > p:first-of-type {
     font-weight: 700;
@@ -651,39 +774,11 @@ footer .copybox {
 .copybox .btbox a {
     padding: 5px 10px;
     background: var(--colorLightGrey);
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
     font-weight: 400;
 }
 .copybox .btbox a:hover {
     background: var(--colorBlack);
     color: var(--colorWhite);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
