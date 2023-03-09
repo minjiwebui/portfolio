@@ -18,60 +18,72 @@
     margin: 0px;
 }
 .top .topL span {
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
 }
 .top .submenu ul {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
 }
 .top .topR .gnb1 {
-    font-size: 10px;
+    /* font-size: 10px; */
+    font-size: 0.625rem;
 }
-.top .topR .search{
+.top .topR .search {
     display: flex;
     align-items: center;
 }
 .top .topR .search i {
-    font-size: 17px;
+    /* font-size: 17px; */
+    font-size: 1.0625rem;
 }
-.top .topR .popup input{
+.top .topR .popup input {
     height: 40px;
     border-bottom: 3px solid var(--colorWhite);
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
 }
-.top .topR .popup i:nth-of-type(1){font-size: 40px;}
-.top .topR .popup i:nth-of-type(2){font-size: 40px;}
+.top .topR .popup i:nth-of-type(1) {
+    /* font-size: 40px; */
+    font-size: 2.5rem;
+}
+.top .topR .popup i:nth-of-type(2) {
+    /* font-size: 40px; */
+    font-size: 2.5rem;
+}
 .header2 .inner {
     width: 100%;
     justify-content: space-around;
 }
 nav .gnb2 {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
 }
 nav a.logo {
     margin: -5px
 }
-.sec01{
+.sec01 {
     margin: 0px 0 0 0;
 }
-.sec01 .inner{
+.sec01 .inner {
     width: 100%;
     flex-direction: column;
     align-items: center;
     gap: unset;
 }
-.sec01 .left{
+.sec01 .left {
     width: 100%;
     border-bottom: 1px solid var(--colorLightGrey);
-    padding: 0 0 45px 0;
+    padding: 0 0 55px 0;
 }
-.sec01 .right{
+.sec01 .right {
     width: 80%;
     border-top: none;
     border-bottom: none;
 }
-.sec01 .swiper{
+.sec01 .swiper {
     width: 100%;
-    height: 700px;
+    height: 550px;
     display: flex;
 }
 .sec01 .swiper-slide.img01 {
@@ -94,32 +106,80 @@ nav a.logo {
     background: url(/portfolio/images/artbread_sub/sec01pd05.png) no-repeat 50% 50% / cover;
     cursor: pointer;
 }
-.swiper-scrollbar-drag{
+.swiper-scrollbar{
+    border-radius: 0px;
+}
+.swiper-scrollbar-drag {
     background: var(--colorBlack);
+    border-radius: 0px;
 }
-.sec01 .btbox02 .top2 > span{
+.sec01 .btbox02 .top2 > span {
     width: 80%;
+    box-shadow: unset;
 }
-.sec01 .btbox02 .top2 > i{
+.sec01 .btbox02 .top2 > i {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 10%;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.875rem;
     border: 1px solid var(--colorLightGrey);
     cursor: pointer;
 }
-.sec01 .leftbox{
+.sec01 .leftbox {
     display: none;
 }
-.sec01 .rightbox{
+.sec01 .rightbox {
     display: none;
 }
-.sec01 .left > div:last-of-type{
+.sec01 .left > div:last-of-type {
     display: unset;
 }
-.sec01 .btbox02 .bottom{
+.sec01 .btbox02 .bottom {
     display: none;
+}
+.sec02 .inner{
+    width: 80%;
+}
+.sec02 .iconallbox{
+    display: none;
+}
+.sec02 .iconallbox02{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec02 .iconallbox02 .top4{
+    display: flex;
+    justify-content: center;
+}
+.sec02 .iconallbox02 .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sec02 .iconbox{
+    width: 40%;
+    height: 285px;
+}
+.sec03 .inner{
+    width: 80%;
+}
+.sec03 .inner > div{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.sec03 .txtbox{
+    gap: 10px;
+}
+.sec03 .product02 div:first-of-type {
+    order: unset;
+}
+.sec04 .inner{
+    width: 70%;
 }
 footer {
     width: 100%;
@@ -132,29 +192,3 @@ footer .copybox {
     margin: 40px 60px 40px 60px;
     gap: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
