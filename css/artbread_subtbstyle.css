@@ -115,6 +115,7 @@ nav a.logo {
 }
 .sec01 .btbox02 .top2 > span {
     width: 80%;
+    height: 60px;
     box-shadow: unset;
 }
 .sec01 .btbox02 .top2 > i {
@@ -191,4 +192,35 @@ footer .copybox {
     width: 80%;
     margin: 40px 60px 40px 60px;
     gap: 80px;
+}
+.fixebt{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.fixebt.off{
+    display: none;
+}
+.fixebt a{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--colorGrey);
+    color: var(--colorBlack);
+    /* font-size: 30px; */
+    font-size: 1.875rem;
+}
+.fixebt span{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+    /* font-size: 30px; */
+    font-size: 1.875rem;
 }
