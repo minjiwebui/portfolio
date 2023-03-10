@@ -13,8 +13,10 @@ $(".popup .fa-times").click(function() {
 $(document).ready( function(){
     $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
 });
-
-
+// sec01 탭 버튼 색상 고정
+$(document).ready( function(){
+    $(".sec01 .btbox span:first-of-type").css("background","#000000").css("color","#ffffff")
+});
 
 // header 모바일 검색팝업창(공통요소)
 $(".header2 .inner > .fa-search").click(function() {
