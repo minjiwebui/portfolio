@@ -7,7 +7,8 @@
 }
 .banner .inner h3,
 .banner .inner span {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
 }
 body header:first-of-type,
 .header2 .gnb2 {
@@ -15,14 +16,16 @@ body header:first-of-type,
 }
 .header2 .inner > i:first-of-type,
 .header2 .inner > i:last-of-type{
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.875rem;
     display: unset;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 .header2 .inner > i.fa-times {
-    font-size: 37px;
+    /* font-size: 37px; */
+    font-size: 2.3125rem;
 }
 .header2 .inner {
     justify-content: space-around;
@@ -54,7 +57,8 @@ body header:first-of-type,
     width: 100%;
 }
 .header2 .gnbmb .subgnbmb ul {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -101,16 +105,19 @@ body header:first-of-type,
     border: none;
     border-bottom: 3px solid var(--colorWhite);
     color: var(--colorWhite);
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
 }
 .header2 .popup i:nth-of-type(1){
     color: var(--colorWhite);
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2.5rem;
     cursor: pointer;
 }
 .header2 .popup i:nth-of-type(2){
     color: var(--colorWhite);
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2.5rem;
     position: absolute;
     top: 40px;
     right: 60px;
@@ -134,6 +141,10 @@ body header:first-of-type,
 .sec02 .inner{
     width: 90%;
 }
+.sec02 .bottom .titlebox h3{
+    /* font-size: 30px; */
+    font-size: 1.875rem;
+}
 .sec02 .iconbox{
     width: 45%;
     height: 240px;
@@ -155,7 +166,8 @@ footer .copybox {
     gap: 30px;
 }
 .cs .copytxt p:nth-of-type(1) {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     font-weight: 700;
 }
 .company .copytxt p:nth-of-type(3),
