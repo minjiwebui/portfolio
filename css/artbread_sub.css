@@ -13,7 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     /* line-height: 1; */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     word-break: keep-all;
     letter-spacing: -0.02rem;
     color: var(--colorBlack);
