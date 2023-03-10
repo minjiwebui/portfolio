@@ -131,7 +131,16 @@ body header:first-of-type,
     /* font-size: 20px; */
     font-size: 1.25rem;
 }
-
+.sec02 .inner{
+    width: 90%;
+}
+.sec02 .iconbox{
+    width: 45%;
+    height: 240px;
+}
+.sec02 .imgbox{
+    width: 44%;
+}
 .sec03 .inner{
     width: 90%;
 }
