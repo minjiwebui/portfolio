@@ -809,12 +809,13 @@ footer .copybox {
     width: 300px;
     display: none;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     z-index: 500;
     transform: translate(-50%, -50%);
     border: 1px solid var(--colorBlack);
+    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.3);
 }
 .pdcheck.on{
     display: flex;
