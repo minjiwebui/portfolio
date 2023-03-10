@@ -145,6 +145,16 @@ body header:first-of-type,
     /* font-size: 30px; */
     font-size: 1.875rem;
 }
+.sec02 .iconallbox02{
+    align-items: center;
+    width: 100%;
+}
+.sec02 .iconallbox02 .bottom{
+    gap: 20px;
+}
+.sec02 .top4{
+    width: 100%;
+}
 .sec02 .top4 .iconbox{
     width: 45%;
     height: 270px;

@@ -519,6 +519,7 @@ nav .gnb2 > li:hover {
 .sec02 .inner .top3 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
     width: 100%;
 }
