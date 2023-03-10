@@ -116,7 +116,9 @@ body header:first-of-type,
     right: 60px;
     cursor: pointer;
 }
-
+.sec01 .swiper{
+    height: 400px;
+}
 
 
 
