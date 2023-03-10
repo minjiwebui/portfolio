@@ -132,8 +132,12 @@ body header:first-of-type,
     font-size: 1.25rem;
 }
 
-
-
+.sec03 .inner{
+    width: 90%;
+}
+.sec04 .inner{
+    width: 90%;
+}
 footer .copybox {
     flex-direction: column;
     align-items: flex-start;
