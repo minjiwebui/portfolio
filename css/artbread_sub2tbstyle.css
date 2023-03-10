@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* artbread_sub2 tablet */
+
+.banner {
+    width: 100%;
+}
+.top .inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top .topL {
+    margin: 0 50px 0 0;
+}
+.top .tel {
+    flex: 1 0 214px;
+    margin: 0px;
+}
+.top .topL span {
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
+}
+.top .submenu ul {
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
+}
+.top .topR .gnb1 {
+    /* font-size: 10px; */
+    font-size: 0.625rem;
+}
+.top .topR .search {
+    display: flex;
+    align-items: center;
+}
+.top .topR .search i {
+    /* font-size: 17px; */
+    font-size: 1.0625rem;
+}
+.top .topR .popup input {
+    height: 40px;
+    border-bottom: 3px solid var(--colorWhite);
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
+}
+.top .topR .popup i:nth-of-type(1) {
+    /* font-size: 40px; */
+    font-size: 2.5rem;
+}
+.top .topR .popup i:nth-of-type(2) {
+    /* font-size: 40px; */
+    font-size: 2.5rem;
+}
+.header2 .inner {
+    width: 100%;
+    justify-content: space-around;
+}
+nav .gnb2 {
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
+}
+nav a.logo {
+    margin: -5px
+}
+
+
+
+
+footer {
+    width: 100%;
+}
+footer .inner {
+    margin: unset;
+}
+footer .copybox {
+    width: 80%;
+    margin: 40px 60px 40px 60px;
+    gap: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
