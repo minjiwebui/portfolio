@@ -157,7 +157,11 @@ body header:first-of-type,
     /* font-size: 23px; */
     font-size: 1.4375rem;
 }
+.sec02 .inner .bottom{
+    align-items: center;
+}
 .sec02 .imgallbox{
+    width: 90%;
     gap: 30px;
 }
 .sec02 .imgbox{
