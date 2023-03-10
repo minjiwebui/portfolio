@@ -122,8 +122,15 @@ body header:first-of-type,
 .sec01 .swiper{
     height: 400px;
 }
-
-
+.sec01 .btbox02 .top2 > span{
+    height: 50px;
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
+}
+.sec01 .btbox02 .top2 > i{
+    /* font-size: 20px; */
+    font-size: 1.25rem;
+}
 
 
 
@@ -149,6 +156,14 @@ footer .copybox {
 }
 .copybox .btbox {
     justify-content: flex-start;
+}
+.fixebt{
+    height: 55px;
+}
+.fixebt a,
+.fixebt span{
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
 }
 
 
