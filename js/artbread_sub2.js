@@ -9,8 +9,10 @@ $(".search > i").click(function() {
 $(".popup .fa-times").click(function() {
     $(".popup").removeClass("on");
 });
-
-
+// nav 색상 고정
+$(document).ready( function(){
+    $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
+});
 
 
 
