@@ -155,6 +155,9 @@ body header:first-of-type,
 .sec03 .inner{
     width: 90%;
 }
+.sec03 .imgbox{
+    width: 60%;
+}
 .sec04 .inner{
     width: 90%;
 }
