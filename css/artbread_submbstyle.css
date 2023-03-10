@@ -153,8 +153,11 @@ body header:first-of-type,
     width: 100%;
     height: 260px;
 }
+.sec02 .imgallbox{
+    gap: 30px;
+}
 .sec02 .imgbox{
-    width: 44%;
+    width: 46%;
 }
 .sec03 .inner{
     width: 90%;
