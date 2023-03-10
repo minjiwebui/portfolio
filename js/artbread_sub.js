@@ -21,7 +21,7 @@ $(".sec01 .leftbox div").hover(function(){
     $(this).addClass('on').siblings().removeClass('on');
     $(".sec01 .rightbox div").eq(tabindex).addClass('on').siblings().removeClass('on');
 });
-// sec01 구매하기,장바구니 버튼 클릭 시, 확인 창 열림
+// sec01 구매하기,장바구니 버튼 클릭 시, 확인 창
 $(".sec01 .top2 > span").click(function(){
     alert("구성 옵션을 선택해주세요.");
 });

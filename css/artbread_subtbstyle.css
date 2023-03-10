@@ -148,6 +148,7 @@ nav a.logo {
     display: none;
 }
 .sec02 .iconallbox02{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -163,7 +164,7 @@ nav a.logo {
 }
 .sec02 .iconbox{
     width: 40%;
-    height: 285px;
+    height: 290px;
 }
 .sec03 .inner{
     width: 80%;
