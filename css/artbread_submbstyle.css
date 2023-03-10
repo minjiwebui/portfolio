@@ -157,27 +157,12 @@ body header:first-of-type,
 }
 .sec02 .top4 .iconbox{
     width: 50%;
-    height: 270px;
+    height: 260px;
 }
 .sec02 .bottom .iconbox{
     width: 100%;
-    height: 270px;
+    height: 260px;
 }
-/* .sec02 .iconbox .img01 {
-    background: url(/portfolio/images/artbread_sub/sec02img01.png) no-repeat 50% 50% / cover;
-    width: 100%;
-    height: 100%;
-}
-.sec02 .iconbox .img02 {
-    background: url(/portfolio/images/artbread_sub/sec02img02.png) no-repeat 50% 50% / cover;
-    width: 100%;
-    height: 100%;
-}
-.sec02 .iconbox .img03 {
-    background: url(/portfolio/images/artbread_sub/sec02img03.png) no-repeat 50% 50% / cover;
-    width: 100%;
-    height: 100%;
-} */
 .sec02 .iconallbox02 span{
     /* font-size: 23px; */
     font-size: 1.4375rem;
