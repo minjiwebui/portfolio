@@ -229,5 +229,5 @@ footer .copybox {
     letter-spacing: 1px;
 }
 .pdcheck{
-    display: unset;
+    display: none;
 }

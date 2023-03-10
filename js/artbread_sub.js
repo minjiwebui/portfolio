@@ -28,6 +28,16 @@ $(".sec01 .top2 > span").click(function(){
 $(".sec01 .bottom > span:first-of-type").click(function(){
     alert("구성 옵션을 선택해주세요.");
 });
+// sec01 관심상품 버튼 클릭 시, 관심상품 등록 안내창
+$(".sec01 .bottom > span:last-of-type").click(function(){
+    $(".pdcheck").addClass("on");
+});
+$(".pdcheck .pdcheck01 > i").click(function(){
+    $(".pdcheck").removeClass("on");
+});
+$(".pdcheck .pdcheck03 > span:first-of-type").click(function(){
+    $(".pdcheck").removeClass("on");
+});
 // sec04 영양정보 탭
 $(".sec04 .btbox span").click(function () {
     var tabindex = $(this).index();

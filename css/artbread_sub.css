@@ -805,3 +805,77 @@ footer .copybox {
 .fixebt{
     display: none;
 }
+.pdcheck{
+    width: 300px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 500;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--colorBlack);
+}
+.pdcheck.on{
+    display: flex;
+}
+.pdcheck .pdcheck01{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--colorBlack);
+    padding: 10px 15px 10px 15px;
+}
+.pdcheck .pdcheck01 span{
+    color: var(--colorWhite);
+    font-weight: 600;
+}
+.pdcheck .pdcheck01 i{
+    color: var(--colorWhite);
+    cursor: pointer;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
+}
+.pdcheck .pdcheck02{
+    background: var(--colorWhite);
+    border-bottom: 1px solid var(--colorLightGrey);
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.pdcheck .pdcheck02 p{
+    /* font-size: 13px; */
+    font-size: 0.8125rem;
+}
+.pdcheck .pdcheck02 span{
+    font-weight: 700;
+    color: var(--colorblue);
+}
+.pdcheck .pdcheck03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: var(--colorWhite);
+    padding: 10px 0 10px 0;
+}
+.pdcheck .pdcheck03 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--colorLightGrey);
+    border-radius: 3px;
+    cursor: pointer;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
+    padding: 5px 10px 5px 10px;
+}
+.pdcheck .pdcheck03 span:first-of-type{
+    background: var(--colorGrey);
+    color: var(--colorBlack);
+}
+.pdcheck .pdcheck03 span:last-of-type{
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+
