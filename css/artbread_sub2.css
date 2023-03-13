@@ -279,20 +279,16 @@ nav .gnb2 > li:hover {
     /* font-size: 27px; */
     font-size: 1.6875rem;
 }
-.sec01 .titlebox span:nth-of-type(2),
-.sec01 .titlebox span:nth-of-type(3){
-    display: none;
-}
 .sec01 .btbox{
     display: flex;
     gap: 15px;
     margin: 0 0 100px 0;
 }
 .sec01 .btbox span{
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: 1px solid var(--colorLightGrey);
-    /* font-size: 14px; */
-    font-size: 0.875rem;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
     cursor: pointer;
 }
 .sec01 .btbox span:hover{
