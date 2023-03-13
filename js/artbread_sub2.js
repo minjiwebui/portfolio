@@ -17,6 +17,32 @@ $(document).ready( function(){
 $(document).ready( function(){
     $(".sec01 .btbox span:first-of-type").css("background","#000000").css("color","#ffffff")
 });
+// json 데이터 파일 연결
+$.ajax({
+    type: "GET",
+    url: "artbread_sub2_data.json",
+    dataType: "json",
+    success: function(data) {
+        var elem = "";
+        $.each(data, function(index, obj) {
+            elem += `<div>`;
+                elem += `<div>${obj.thumbnail}</div>`;
+            elem += `</div>`;
+        });
+        $(".tabbox .minibox").append(elem);
+    },
+    error: function(xhr) {
+        console.log(xhr.status + "/" + xhr.errorText);
+    }
+});
+
+
+
+
+
+
+
+
 
 // header 모바일 검색팝업창(공통요소)
 $(".header2 .inner > .fa-search").click(function() {
