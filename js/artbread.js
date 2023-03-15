@@ -41,7 +41,7 @@ $(".snsbox .fa-heart").click(function() {
     $(this).toggleClass("on")
     return false
 });
-// sec05 게시판 탭
+// sec05 태블릿, 모바일 게시판 탭
 $(".newsL h3 span span").click(function () {
     var tabindex = $(this).index();
     $(this).addClass('on').siblings().removeClass('on');

@@ -52,6 +52,10 @@ var swiper = new Swiper(".basic02", {
     },
     loop: true
   });
+// sec01 모바일 장바구니 아이콘 클릭 시, 확인 창
+$(".sec01 .top2 > i:first-of-type").click(function(){
+    alert("구성 옵션을 선택해주세요.");
+});
 // 태블릿, 모바일 하단 고정 버튼 스크롤
 $(document).scroll(function() {
     var scrolltop = $(window).scrollTop();
