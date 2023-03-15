@@ -13,7 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     /* line-height: 1; */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     word-break: keep-all;
     letter-spacing: -0.02rem;
     color: var(--colorBlack);
@@ -27,6 +27,7 @@
     --colorGreen: #4d6846;
     --colorblue: #0890CA;
     --colorred: #F94545;
+    --coloryellow: #EEF21D;
     --swiper-theme-color: #000000;
 }
 i > span {
@@ -291,15 +292,82 @@ nav .gnb2 > li:hover {
     font-size: 0.9375rem;
     cursor: pointer;
 }
+.sec01 .btbox span.on{
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
 .sec01 .btbox span:hover{
     background: var(--colorBlack);
     color: var(--colorWhite);
 }
-
-
-
-
-
+.sec01 .taballbox{
+    width: 100%;
+}
+.sec01 .taballbox .tabbox{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.sec01 .taballbox > div.on{
+    display: flex;
+}
+.sec01 .minibox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid var(--colorBlack);
+}
+.sec01 .minibox .thumbnail{
+    width: 100%;
+    height: 210px;
+    margin: 0 0 25px 0;
+    border: 1px solid var(--colorBlack);
+}
+.sec01 .txtbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sec01 .minibox .rowbox:nth-of-type(1){
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid var(--colorLightGrey);
+}
+.sec01 .minibox .rowbox:nth-of-type(2){
+    display: flex;
+    gap: 15px;
+    padding: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sec01 .minibox .rowbox:nth-of-type(3){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+    font-size: 14px;
+}
+.sec01 .minibox .rowbox:nth-of-type(3) i{
+    color: var(--coloryellow);
+}
+.sec01 .minibox .contents{
+    padding: 10px 0 10px 0;
+}
+.sec01 .minibox .cost{
+    padding: 0 0 2px 0;
+}
+.sec01 .minibox .contents,
+.sec01 .minibox .cost,
+.sec01 .minibox .cost span{
+    color: var(--colorGrey);
+}
+.sec01 .minibox .disrate,
+.sec01 .minibox .disrate span{
+    color: var(--colorblue);
+}
 
 
 

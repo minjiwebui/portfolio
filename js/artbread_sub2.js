@@ -9,22 +9,18 @@ $(".search > i").click(function() {
 $(".popup .fa-times").click(function() {
     $(".popup").removeClass("on");
 });
-// nav 색상 고정
-$(document).ready( function(){
-    $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
-});
-// sec01 탭 버튼 색상 고정
-$(document).ready( function(){
-    $(".sec01 .btbox span:first-of-type").css("background","#000000").css("color","#ffffff")
-});
-// json 데이터 파일 연결
+// // nav 색상 고정
+// $(document).ready( function(){
+//     $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
+// });
+// sec01 - json 데이터 파일 연결
 $.ajax({
     type: "GET",
     url: "artbread_sub2_data.json",
     dataType: "json",
     success: function(data) {
         var elem = "";
-        $.each(data, function(index, obj) {
+        $.each(data, function(index) {
             elem += `<div>`;
                 elem += `<div>${obj.thumbnail}</div>`;
             elem += `</div>`;
@@ -37,11 +33,13 @@ $.ajax({
 });
 
 
-
-
-
-
-
+// sec01 카테고리 품목 리스트 탭
+$(".sec01 .btbox span").click(function(){
+    var tabindex = $(this).index();
+    $(this).addClass('on').siblings().removeClass('on');
+    $(".sec01 .taballbox .tabbox").eq(tabindex).addClass('on').siblings().removeClass('on');
+});
+$(".sec01 .btbox span").eq(1).trigger("click")
 
 
 // header 모바일 검색팝업창(공통요소)
