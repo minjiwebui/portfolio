@@ -305,6 +305,7 @@ nav .gnb2 > li:hover {
 }
 .sec01 .taballbox .tabbox{
     display: flex;
+    flex-flow: row wrap;
     gap: 20px;
     width: 100%;
 }
@@ -312,17 +313,41 @@ nav .gnb2 > li:hover {
     display: flex;
 }
 .sec01 .minibox{
-    display: flex;
+    display: none;
+    flex: 0 1 30%;
+    min-width: 386.66px;
     flex-direction: column;
-    width: 100%;
     padding: 20px;
     border: 2px solid var(--colorBlack);
 }
+.sec01 .minibox.on{ display: flex; }
 .sec01 .minibox .thumbnail{
     width: 100%;
     height: 210px;
     margin: 0 0 25px 0;
     border: 1px solid var(--colorBlack);
+    background: url(/portfolio/images/artbread_sub2/sec01_img01.png) no-repeat 50% 50% / cover;
+}
+.sec01 .minibox.brunch:nth-of-type(1) .thumbnail{
+    background: url(/portfolio/images/artbread_sub2/sec01_img01.png) no-repeat 50% 50% / cover;
+}
+.sec01 .minibox.brunch:nth-of-type(2) .thumbnail{
+    background: url(/portfolio/images/artbread_sub2/sec01_img02.png) no-repeat 50% 50% / cover;
+}
+.sec01 .minibox.dessert:nth-of-type(1) .thumbnail{
+    background: url(/portfolio/images/artbread_sub2/sec01_img03.png) no-repeat 50% 50% / cover;
+}
+.sec01 .minibox.dessert:nth-of-type(2) .thumbnail{
+    background: url(/portfolio/images/artbread_sub2/sec01_img04.png) no-repeat 50% 50% / cover;
+}
+.sec01 .minibox.dessert:nth-of-type(3) .thumbnail{
+    background: url(/portfolio/images/artbread_sub2/sec01_img05.png) no-repeat 50% 50% / cover;
+}
+.sec01 .minibox.jam:nth-of-type(1) .thumbnail{
+    background: url(/portfolio/images/artbread_sub2/sec01_img06.png) no-repeat 50% 50% / cover;
+}
+.sec01 .minibox.jam:nth-of-type(2) .thumbnail{
+    background: url(/portfolio/images/artbread_sub2/sec01_img07.png) no-repeat 50% 50% / cover;
 }
 .sec01 .txtbox{
     width: 100%;
