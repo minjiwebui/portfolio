@@ -21,8 +21,13 @@ $.ajax({
     success: function(data) {
         var elem = "";
         $.each(data, function(index) {
-            elem += `<div>`;
-                elem += `<div>${obj.thumbnail}</div>`;
+            elem += `<div class="minibox">`;
+                elem += `<div class="txtbox">`;
+                    elem += `<div class="rowbox">`;
+                        elem += `<span class="title>${this.title}</span>`;
+                        elem += `<span class="unit">${this.unit}</span>`;
+                    elem += `</div>`;
+                elem += `</div>`;
             elem += `</div>`;
         });
         $(".tabbox .minibox").append(elem);
