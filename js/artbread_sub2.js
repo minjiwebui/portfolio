@@ -21,7 +21,7 @@ $.ajax({
     success: function (data) {
         var elem = "";
         $.each(data, function () {
-            elem += `<a class="minibox ${this.class}" href="https://minjiwebui.github.io/portfolio/html/artbread_sub.html">`;
+            elem += `<a class="minibox ${this.class}" href="${this.href}">`;
             elem += `<div class="thumbnail"></div>`;
             elem += `<div class="txtbox">`;
             elem += `<div class="rowbox">`;
@@ -73,10 +73,11 @@ $(".sec01 .btbox span").click(function () {
 });
 $(".sec01 .btbox span").eq(0).trigger("click");
 
+// 3자리마다 ,콤마찍는 함수
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
-// 3자리마다 ,콤마찍는 함수
+
 
 // header 모바일 검색팝업창(공통요소)
 $(".header2 .inner > .fa-search").click(function () {
