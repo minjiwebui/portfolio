@@ -123,10 +123,12 @@ body header:first-of-type,
     right: 60px;
     cursor: pointer;
 }
-
-
-
-
+.sec01 .inner{
+    width: 80%;
+}
+.sec01 .minibox{
+    flex: 1 1 100%;
+}
 footer .copybox {
     flex-direction: column;
     align-items: flex-start;

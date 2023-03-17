@@ -62,10 +62,16 @@ nav .gnb2 {
 nav a.logo {
     margin: -5px
 }
-
-
-
-
+.sec01 .inner{
+    width: 70%;
+}
+.sec01 .taballbox .tabbox{
+    gap: 50px;
+}
+.sec01 .minibox{
+    flex: 0 1 100%;
+    min-width: unset;
+}
 footer {
     width: 100%;
 }

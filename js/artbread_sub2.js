@@ -10,9 +10,9 @@ $(".popup .fa-times").click(function () {
     $(".popup").removeClass("on");
 });
 // // nav 색상 고정
-// $(document).ready( function(){
-//     $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
-// });
+$(document).ready( function(){
+    $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
+});
 // sec01 - json 데이터 파일 연결
 $.ajax({
     type: "GET",
@@ -25,14 +25,14 @@ $.ajax({
             elem += `<div class="thumbnail"></div>`;
             elem += `<div class="txtbox">`;
             elem += `<div class="rowbox">`;
-            elem += `<span class="title">${this.title}</span>`;
+            elem += `<span class="title">${this.title},</span>`;
             elem += `<span class="unit">${this.unit}개</span>`;
             elem += `</div>`;
             elem += `<p class="contents">${this.contents}</p>`;
             elem += `<del class="cost">`+ numberWithCommas(`${this.cost}`)+`원</del>`;
             elem += `<div class="rowbox">`;
             elem += `<span class="disrate">${this.disrate}%</span>`;
-            elem += `<span class="disprice">${this.disprice}원</span>`;
+            elem += `<span class="disprice">`+ numberWithCommas(`${this.disprice}`)+`원</span>`;
             elem += `</div>`;
             elem += `<div class="rowbox">`;
             elem += `<div class="starbox">`;

@@ -374,21 +374,11 @@ nav .gnb2 > li:hover {
     display: flex;
     flex-direction: column;
 }
-.sec01 .txtbox02 p span {
+.sec01 .txtbox02 p del {
     color: var(--colorGrey);
     /* font-size: 20px; */
     font-size: 1.25rem;
     position: relative;
-}
-.sec01 .txtbox02 p span::before {
-    content: "";
-    width: 100%;
-    height: 2px;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 55%;
-    background: var(--colorGrey);
 }
 .sec01 .txtbox02 h3 span {
     color: var(--colorblue);
