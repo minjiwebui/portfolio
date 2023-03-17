@@ -81,7 +81,7 @@ $(".scroll span").each(function() {
     console.log(thisOffset)
     $(this).click(function() {
         $("html, body").animate({
-            scrollTop: thisOffset - 80
+            scrollTop: thisOffset -80
         }, 1000);
         $(this).addClass('on').siblings().removeClass("on");
     });
