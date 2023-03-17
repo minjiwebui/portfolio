@@ -300,24 +300,28 @@ nav .gnb2 > li:hover {
 }
 .sec03 .xbox {
     display: flex;
-    line-height: 1;
-    border: 1px solid var(--colorGrey);
+    height: auto;
+    border: 1px solid var(--colorLightGrey);
 }
 .sec03 .pdbox{
     display: none;
     cursor: pointer;
 }
 .sec03 .pdbox.on{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.sec03 .pdbox > div:first-of-type {
+.sec03 .pdbox .allbox{
+    padding: 20px;
+}
+.sec03 .pdbox .allbox > div:first-of-type {
     display: flex;
     height: 270px;
 }
 .sec03 .xbox .img01 {
     background: url(/portfolio/images/artbread/pi01x.png) no-repeat 50% 50% / cover;
     width: 325px;
-    border-right: 1px solid var(--colorGrey);
 }
 .sec03 .xbox .img02 {
     background: url(/portfolio/images/artbread/pi02x.png) no-repeat 50% 50% / cover;
@@ -326,7 +330,6 @@ nav .gnb2 > li:hover {
 .sec03 .xbox .img03 {
     background: url(/portfolio/images/artbread/pi04x.png) no-repeat 50% 50% / cover;
     width: 325px;
-    border-right: 1px solid var(--colorGrey);
 }
 .sec03 .xbox .img04 {
     background: url(/portfolio/images/artbread/pi05x.png) no-repeat 50% 50% / cover;
@@ -337,26 +340,33 @@ nav .gnb2 > li:hover {
     width: 650px;
 }
 .sec03 .xbox .txtbox {
-    height: 136px;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    justify-content: space-between;
-    border-top: 1px solid var(--colorGrey);
+    padding: 0px 20px 20px 20px;
+    justify-content: center;
+    gap: 20px;
 }
-.sec03 .xbox .txtbox p {
+.sec03 .xbox .txtbox p:first-of-type {
     /* font-size: 20px; */
     font-size: 1.25rem;
     font-weight: 400;
+    border-top: 1px solid var(--colorLightGrey);
+    padding: 20px 0 0 0;
 }
 .sec03 .xbox .txtbox p:nth-child(2) {
     /* font-size: 16px; */
     font-size: 1rem;
     color: var(--colorGrey);
 }
+.sec03 .xbox .txtbox p:nth-child(3){
+    /* font-size: 20px; */
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 .sec03 .xybox > div:nth-child(2) {
     content: "";
-    width: 5px;
+    width: 3px;
     height: auto;
     background: var(--colorLightGrey);
     display: inline-block;
@@ -365,7 +375,7 @@ nav .gnb2 > li:hover {
     overflow: hidden;
 }
 .sec03 .ybox {
-    height: 408px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -383,11 +393,6 @@ nav .gnb2 > li:hover {
 }
 .sec03 .ybox .img03 {
     background: url(/portfolio/images/artbread/pi03y.png) no-repeat 50% 50% / cover;
-}
-.sec03 .ybox .img01,
-.sec03 .ybox .img02,
-.sec03 .ybox .img03 {
-    border: 1px solid var(--colorGrey);
 }
 .sec03 .ybox .img01{
     order: 3;
@@ -436,10 +441,13 @@ nav .gnb2 > li:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--colorGrey);
     cursor: pointer;
+    border: 1px solid var(--colorLightGrey);
 }
-.rvblock > div:first-of-type {
+.rvblock .imgbox{
+    padding: 10px 10px 13px 10px;
+}
+.rvblock .imgbox > div:first-of-type {
     width: 100%;
     height: 140px;
 }
@@ -455,15 +463,16 @@ nav .gnb2 > li:hover {
 .rvblock .txtbox {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
     gap: 10px;
     /* font-size: 13px; */
     font-size: 0.8125rem;
-    border-top: 1px solid var(--colorGrey);
 }
 .rvblock .txtbox > .title {
     display: flex;
     justify-content: space-between;
+    padding: 10px 0 0 0;
+    border-top: 1px solid var(--colorGrey);
 }
 .rvblock .txtbox > p {
     overflow: hidden;

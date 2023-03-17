@@ -183,9 +183,9 @@ body header:first-of-type,
     font-size: 1.0625rem;
 }
 .sec03 .xbox .txtbox p:nth-child(2) {
-    /* font-size: 13px; */
-    font-size: 0.875rem;
-    line-height: 1.3;
+    font-size: 14px;
+    /* font-size: 0.875rem; */
+    line-height: 1.7;
 }
 .sec04 {
     gap: 50px;
@@ -213,22 +213,34 @@ body header:first-of-type,
     display: flex;
     justify-content: center;
 }
-.rvblock {
+.swiper{
+    border: 1px solid var(--colorLightGrey);
+}
+.sec04 .swiper-slide.rvblock {
     width: 100%;
+    border-left: unset;
+    border-right: unset;
 }
 .swiper-button-prev:after,
 .swiper-button-next:after{
     text-shadow: 0 0 3px var(--colorBlack);
+    font-size: 35px;
 }
-.rvblock > div:first-of-type {
+.rvblock .imgbox{
+    padding: 20px 20px 30px 20px;
+}
+.rvblock .imgbox > div:first-of-type {
     width: 100%;
     height: 250px;
 }
 .rvblock .txtbox {
     gap: 15px;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     /* font-size: 16px; */
     font-size: 1rem;
+}
+.rvblock .txtbox > .title {
+    padding: 20px 0 0 0;
 }
 .sec04 .sns .snsbox {
     width: 100%;
