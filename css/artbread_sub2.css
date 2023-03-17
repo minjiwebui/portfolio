@@ -276,7 +276,7 @@ nav .gnb2 > li:hover {
 .sec01 .titlebox{
     margin: 0 0 50px 0;
 }
-.sec01 .titlebox span{
+.sec01 .titlebox div{
     /* font-size: 27px; */
     font-size: 1.6875rem;
 }

@@ -99,6 +99,8 @@ $(document).scroll(function() {
         }
     });
 });
+// AOS 연결
+AOS.init();
 
 
 

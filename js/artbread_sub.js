@@ -81,3 +81,5 @@ $(".header2 .inner > .fa-bars").click(function () {
     $(".gnbmb").toggleClass("on");
     $(this).toggleClass("fa-times");
 });
+// AOS 연결
+AOS.init();
