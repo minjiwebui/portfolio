@@ -21,7 +21,7 @@ $.ajax({
     success: function (data) {
         var elem = "";
         $.each(data, function () {
-            elem += `<a class="minibox ${this.class}" href="https://minjiwebui.github.io/portfolio/html/artbread_sub2.html">`;
+            elem += `<a class="minibox ${this.class}" href="https://minjiwebui.github.io/portfolio/html/artbread_sub.html">`;
             elem += `<div class="thumbnail"></div>`;
             elem += `<div class="txtbox">`;
             elem += `<div class="rowbox">`;
