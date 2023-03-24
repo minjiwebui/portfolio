@@ -89,11 +89,9 @@ $(".scroll span").each(function() {
 // 섹션이동 시 리모콘(스크롤 버튼)에 하이라이트
 $(document).scroll(function() {
     var scrolltop = $(window).scrollTop();
-    $("header, main > div,section, footer").each(function() {
+    $("main > *").each(function() {
         if (scrolltop >= $(this).offset().top) {
-            $("span[data-class=" + $(this).attr('class') + "]").addClass('on').siblings().removeClass('on');
-            // $(this).addClass('on').siblings().removeClass('on');
-
+            $("span[data-class=" + $(this).attr('class').split(' ')[0] + "]").addClass('on').siblings().removeClass('on');
         } else if (scrolltop >= 1675) {
             $("span[data-class=sec05]").addClass('on').siblings().removeClass('on');
         }
