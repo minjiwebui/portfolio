@@ -224,6 +224,9 @@ header .nav li{
     flex-direction: column;
     gap: 50px;
 }
+.swiper{
+    width: 100%;
+}
 .sec04 .contentsbox01{
     display: flex;
     flex-direction: column;
@@ -297,6 +300,85 @@ header .nav li{
     border: 1px solid var(--colorWhite);
 }
 .sec04 .contentsbox01 .link a p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sec04 .contentsbox02{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec04 .contentsbox02 .title{
+    display: flex;
+    gap: 20px;
+}
+.sec04 .contentsbox02 .title p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.sec04 .contentsbox02 .title span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--colorLightGrey);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--colorBlack);
+    padding: 5px 15px;
+    border-radius: 100px;
+}
+.sec04 .contentsbox02 .concept{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sec04 .contentsbox02 .concept p:first-of-type{
+    font-size: 25px;
+    font-weight: 400;
+}
+.sec04 .contentsbox02 .concept p:last-of-type{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sec04 .contentsbox02 .color{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sec04 .contentsbox02 .color p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.sec04 .contentsbox02 .color .colorbox{
+    display: flex;
+    gap: 25px;
+}
+.sec04 .contentsbox02 .color .colorbox div{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+.sec04 .contentsbox02 .color .colorbox > div:nth-of-type(1){
+    background: var(--colorPinkCoral);
+}
+.sec04 .contentsbox02 .color .colorbox > div:nth-of-type(2){
+    background: var(--colorOrange);
+}
+.sec04 .contentsbox02 .color .colorbox > div:nth-of-type(3){
+    background: var(--colorWhite);
+}
+/* .sec04 .contentsbox02 .link{
+    display: flex;
+    gap: 15px;
+} */
+.sec04 .contentsbox02 .link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid var(--colorWhite);
+}
+.sec04 .contentsbox02 .link a p{
     font-size: 20px;
     font-weight: 400;
 }
