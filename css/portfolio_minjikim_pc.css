@@ -367,10 +367,10 @@ header .nav li{
 .sec04 .contentsbox02 .color .colorbox > div:nth-of-type(3){
     background: var(--colorWhite);
 }
-/* .sec04 .contentsbox02 .link{
+.sec04 .contentsbox02 .link{
     display: flex;
     gap: 15px;
-} */
+}
 .sec04 .contentsbox02 .link a{
     display: flex;
     justify-content: center;
