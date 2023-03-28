@@ -15,7 +15,7 @@
     margin: 0;
     box-sizing: border-box;
     /* line-height: 1; */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     word-break: keep-all;
     letter-spacing: -0.02rem;
     color: var(--colorWhite);
@@ -182,6 +182,7 @@ header .nav li{
 .sec03{
     width: 100%;
     display: flex;
+    border-top: 1px solid var(--colorWhite);
 }
 .sec03 .inner{
     width: 1200px;
@@ -216,6 +217,7 @@ header .nav li{
 .sec04{
     width: 100%;
     display: flex;
+    border-top: 1px solid var(--colorWhite);
 }
 .sec04 .inner{
     width: 1200px;
@@ -385,6 +387,7 @@ header .nav li{
 .sec05{
     width: 100%;
     display: flex;
+    border-top: 1px solid var(--colorWhite);
 }
 .sec05 .inner{
     width: 1200px;
@@ -441,7 +444,6 @@ header .nav li{
 }
 .sec05 .inner .contactbox .right .message textarea{
     margin: 15px 0 0 0;
-    height: 100%;
 }
 .sec05 .inner .contactbox .right p{
     font-size: 25px;
