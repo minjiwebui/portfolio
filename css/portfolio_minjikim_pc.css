@@ -28,6 +28,9 @@
     --colorDarkGrey: #535151;
     --colorGrey: #969696;
     --colorLightGrey: #d9d9d9;
+    --colorGreen: #4d6846;
+    --colorPinkCoral: #FFEEE4;
+    --colorOrange: #EE7C1B;
     --colorPurple: #DC9CF2;
     --swiper-theme-color: #ffffff;
 }
@@ -272,6 +275,12 @@ header .nav li{
 .sec04 .contentsbox01 .color .colorbox div{
     width: 70px;
     height: 70px;
+}
+.sec04 .contentsbox01 .color .colorbox > div:nth-of-type(1){
+    background: var(--colorWhite);
+}
+.sec04 .contentsbox01 .color .colorbox > div:nth-of-type(2){
+    background: var(--colorWhite);
 }
 .sec05{
     width: 100%;
