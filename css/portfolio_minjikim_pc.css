@@ -80,6 +80,9 @@ header .nav li{
     font-size: 20px;
     font-weight: 400;
 }
+header .nav li:hover{
+    color: var(--colorPurple);
+}
 .sec01{
     width: 100%;
     display: flex;
