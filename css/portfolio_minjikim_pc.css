@@ -94,6 +94,12 @@ header .nav li.on{
     width: 1200px;
     margin: 200px auto;
     display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.sec01 .inner .top{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 .sec01 .inner .left{
@@ -122,10 +128,21 @@ header .nav li.on{
     font-size: 25px;
     font-weight: 400;
 }
-.sec01 .inner .profile{
+.sec01 .inner .top .profile{
     background: url(/portfolio/images/portfolio_minjikim/profile.png) no-repeat 50% 50% / cover;
     width: 43%;
     height: 100%;
+}
+.sec01 .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec01 .bottom img{
+    width: 10%;
+}
+.sec01 .bottom p{
+    font-size: 30px;
 }
 .sec02{
     width: 100%;
