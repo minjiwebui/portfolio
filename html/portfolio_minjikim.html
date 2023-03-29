@@ -209,13 +209,15 @@
                     <p>Phone. 010 - 6440 - 8427</p>
                 </div>
                 <div class="right">
-                    <div class="formbox">
-                        <p class="text">Name<input type="text" placeholder="이름 / 회사명"></p>
-                        <p class="tel">Phone number<input type="tel" placeholder="연락처"></p>
-                    </div>
-                    <p class="email">E-mail address<input type="email" placeholder="답변을 받으실 이메일을 입력하세요."></p>
-                    <p class="message">Message<textarea cols="113" rows="15"></textarea></p>
-                    <p class="submit"><input type="submit" value="Submit"></p>
+                    <form id="contactForm">
+                        <div class="formbox">
+                            <p class="text">Name<input type="text" id="from_name" placeholder="이름 / 회사명"></p>
+                            <p class="tel">Phone number<input type="tel" placeholder="연락처"></p>
+                        </div>
+                        <p class="email">E-mail address<input type="email" placeholder="답변을 받으실 이메일을 입력하세요."></p>
+                        <p class="message">Message<textarea cols="113" rows="15"></textarea></p>
+                        <p class="submit"><input type="submit" value="Submit"></p>
+                    </form>
                 </div>
             </div>
         </div>
@@ -228,6 +230,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/portfolio/js/portfolio_minjikim.js"></script>
 </body>
