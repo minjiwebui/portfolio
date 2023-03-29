@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 /* 구글폰트 noto sans korean */
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,100,0,0');
-/* googleIcons  */
+/* googleIcons */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 /* font-awsome v6.4.0 */
 @import url('https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
@@ -81,7 +81,8 @@ header .nav li{
     font-weight: 400;
     cursor: pointer;
 }
-header .nav li:hover{
+header .nav li:hover,
+header .nav li.on{
     color: var(--colorPurple);
 }
 .sec01{
