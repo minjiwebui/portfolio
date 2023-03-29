@@ -15,7 +15,7 @@
     margin: 0;
     box-sizing: border-box;
     /* line-height: 1; */
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     word-break: keep-all;
     letter-spacing: -0.02rem;
     color: var(--colorWhite);
@@ -441,9 +441,15 @@ header .nav li{
     border: none;
     border-bottom: 1px solid var(--colorWhite);
     flex: 1 1 50%;
+    background: transparent;
+    color: var(--colorWhite);
+    font-size: 14px;
 }
 .sec05 .inner .contactbox .right .message textarea{
     margin: 15px 0 0 0;
+    background: transparent;
+    color: var(--colorWhite);
+    font-size: 14px;
 }
 .sec05 .inner .contactbox .right p{
     font-size: 25px;
