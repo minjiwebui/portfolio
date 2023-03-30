@@ -9,6 +9,10 @@ $(".search > i").click(function() {
 $(".popup .fa-times").click(function() {
     $(".popup").removeClass("on");
 });
+// nav 색상 고정
+$(document).ready( function(){
+    $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
+});
 // sec01 슬라이드
 var swiper1 = new Swiper(".basic01", {
     spaceBetween: 30,
