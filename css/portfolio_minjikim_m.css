@@ -5,10 +5,10 @@
 header .inner{
     width: 80%;
     margin: 20px auto;
+    justify-content: center;
 }
-header .inner a > p{
-    font-size: 14px;
-    font-weight: 400;
+header .inner a{
+    display: none;
 }
 header .nav li{
     font-size: 14px;
