@@ -53,6 +53,9 @@ header .nav{
 .sec01 .bottom img{
     width: 20%;
 }
+.sec01 .bottom p{
+    font-size: 25px;
+}
 .sec02 .inner{
     align-items: center;
 }
