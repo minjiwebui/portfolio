@@ -27,7 +27,7 @@ $(document).scroll(function() {
         }
     });
 });
-// emailjs 폼
+// emailjs를 활용한 contact폼
 document.querySelector('#contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); // submit이벤트 막기
     const fromName = document.querySelector('#from_name').value; // 전송자 이름 추출
