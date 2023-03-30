@@ -1,3 +1,88 @@
 @charset "UTF-8";
 
 /* portfolio_minjikim tablet */
+
+header .inner{
+    width: 80%;
+}
+.sec01 .inner{
+    width: 90%;
+    gap: 100px;
+}
+.sec01 .inner .top{
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.sec01 .inner .top .left{
+    flex-direction: row;
+    align-items: center;
+    order: 2;
+    gap: 0px;
+}
+.sec01 .inner .top .profile{
+    width: 500px;
+    height: 450px;
+}
+.sec02 .inner{
+    width: 80%;
+}
+.sec02 .inner .licensebox{
+    width: 100%;
+    gap: 15px;
+}
+.sec02 .inner .licensebox .license{
+    align-items: center;
+}
+.sec02 .inner .licensebox .license > div:first-of-type{
+    width: 130px;
+    height: 130px;
+}
+.sec02 .inner .licensebox .license > .material-symbols-sharp::before{
+    font-size: 110px;
+}
+.sec02 .inner .licensebox .license p:first-of-type{
+    font-size: 18px;
+}
+.sec02 .inner .licensebox .license p:nth-of-type(2){
+    font-size: 15px;
+}
+.sec03 .inner{
+    width: 80%;
+}
+.sec03 .inner .skillbox{
+    flex-direction: column;
+    gap: 50px;
+}
+.sec03 .inner .skillbox .left,
+.sec03 .inner .skillbox .right{
+    width: 100%;
+    justify-content: center;
+}
+.sec04 .inner{
+    width: 80%;
+}
+.sec04 .swiper-slide{
+    flex-direction: column;
+}
+.sec04 .contentsbox01{
+    width: 80%;
+}
+.sec04 .contentsbox02{
+    width: 80%;
+}
+.sec05 .inner{
+    width: 80%;
+}
+.sec05 .inner .contactbox{
+    flex-direction: column;
+}
+.sec05 .inner .contactbox .right p{
+    font-size: 22px;
+}
+footer .inner{
+    width: 80%;
+}
+footer .inner p{
+    font-size: 22px;
+}

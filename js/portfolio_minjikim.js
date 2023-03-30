@@ -1,5 +1,6 @@
 // sec04 슬라이드
 var swiper1 = new Swiper(".basic01", {
+    spaceBetween: 5,
     centeredSlides: true,
     // effect: "fade",
     loop: true,

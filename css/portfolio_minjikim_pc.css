@@ -129,8 +129,8 @@ header .nav li.on{
     font-weight: 400;
 }
 .sec01 .inner .top .profile{
-    /* background: url(/portfolio/images/portfolio_minjikim/profile.png) no-repeat 50% 50% / cover; */
-    background: url(/portfolio/images/portfolio_minjikim/profile02.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/portfolio_minjikim/profile.png) no-repeat 50% 50% / cover;
+    /* background: url(/portfolio/images/portfolio_minjikim/profile02.png) no-repeat 50% 50% / cover; */
     width: 43%;
     height: 100%;
 }
@@ -249,25 +249,25 @@ header .nav li.on{
     height: 100px;
 }
 .sec03 .inner .skillbox .left .skill:nth-of-type(1) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill01.png);
+    background: url(/portfolio/images/portfolio_minjikim/skill01.png) no-repeat 50% 50% / cover;
 }
 .sec03 .inner .skillbox .left .skill:nth-of-type(2) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill02.png);
+    background: url(/portfolio/images/portfolio_minjikim/skill02.png) no-repeat 50% 50% / cover;
 }
 .sec03 .inner .skillbox .left .skill:nth-of-type(3) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill03.png);
+    background: url(/portfolio/images/portfolio_minjikim/skill03.png) no-repeat 50% 50% / cover;
 }
 .sec03 .inner .skillbox .right .skill:nth-of-type(1) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill04.png);
+    background: url(/portfolio/images/portfolio_minjikim/skill04.png) no-repeat 50% 50% / cover;
 }
 .sec03 .inner .skillbox .right .skill:nth-of-type(2) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill05.png);
+    background: url(/portfolio/images/portfolio_minjikim/skill05.png) no-repeat 50% 50% / cover;
 }
 .sec03 .inner .skillbox .right .skill:nth-of-type(3) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill06.png);
+    background: url(/portfolio/images/portfolio_minjikim/skill06.png) no-repeat 50% 50% / cover;
 }
 .sec03 .inner .skillbox .right .skill:nth-of-type(4) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill07.png);
+    background: url(/portfolio/images/portfolio_minjikim/skill07.png) no-repeat 50% 50% / cover;
 }
 .sec04{
     width: 100%;
@@ -282,6 +282,10 @@ header .nav li.on{
     gap: 50px;
 }
 .swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrapper{
     width: 100%;
 }
 .sec04 .swiper-slide{
@@ -471,9 +475,10 @@ header .nav li.on{
     gap: 20px;
 }
 .sec05 .inner .contactbox{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 50px;
 }
 .sec05 .inner .contactbox .left{
@@ -498,9 +503,9 @@ header .nav li.on{
     gap: 30px;
 }
 .sec05 .inner .contactbox .right{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
 }
 .sec05 .inner .contactbox .right .formbox{
     width: 100%;
@@ -525,6 +530,8 @@ header .nav li.on{
     font-size: 14px;
 }
 .sec05 .inner .contactbox .right .message textarea{
+    width: 100%;
+    height: 250px;
     margin: 15px 0 0 0;
     background: transparent;
     color: var(--colorWhite);
@@ -558,12 +565,3 @@ footer .inner p{
     font-size: 25px;
     font-weight: 400;
 }
-
-
-
-
-
-
-
-
-
