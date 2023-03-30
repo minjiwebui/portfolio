@@ -22,39 +22,39 @@ $.ajax({
         var elem = "";
         $.each(data, function () {
             elem += `<a class="minibox ${this.class}" href="${this.href}">`;
-            elem += `<div class="thumbnail"></div>`;
-            elem += `<div class="txtbox">`;
-            elem += `<div class="rowbox">`;
-            elem += `<span class="title">${this.title},</span>`;
-            elem += `<span class="unit">${this.unit}개</span>`;
-            elem += `</div>`;
-            elem += `<p class="contents">${this.contents}</p>`;
-            elem += `<del class="cost">`+ numberWithCommas(`${this.cost}`)+`원</del>`;
-            elem += `<div class="rowbox">`;
-            elem += `<span class="disrate">${this.disrate}%</span>`;
-            elem += `<span class="disprice">`+ numberWithCommas(`${this.disprice}`)+`원</span>`;
-            elem += `</div>`;
-            elem += `<div class="rowbox">`;
-            elem += `<div class="starbox">`;
-            //  if문을 통해서 json에서 들어오는 grade값의 크기를 비교하는 식 넣기
-            if(`${this.grade}` == 5){
-                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
-                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
-                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
-                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
-                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
-            }else if(`${this.grade}` >= 4 && `${this.grade}` <= 4.999){
-                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
-                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
-                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
-                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
-                elem += `<i class="fa-sharp fa-solid fa-star-half-stroke"></i>`;
-            }
-            elem += `</div>`;
-            elem += `<span class="grade">${this.grade}</span>`;
-            elem += `<span class="count">(${this.count})</span>`;
-            elem += `</div>`;
-            elem += `</div>`;
+                elem += `<div class="thumbnail"></div>`;
+                elem += `<div class="txtbox">`;
+                    elem += `<div class="rowbox">`;
+                        elem += `<span class="title">${this.title},</span>`;
+                        elem += `<span class="unit">${this.unit}개</span>`;
+                    elem += `</div>`;
+                    elem += `<p class="contents">${this.contents}</p>`;
+                    elem += `<del class="cost">`+ numberWithCommas(`${this.cost}`)+`원</del>`;
+                    elem += `<div class="rowbox">`;
+                        elem += `<span class="disrate">${this.disrate}%</span>`;
+                        elem += `<span class="disprice">`+ numberWithCommas(`${this.disprice}`)+`원</span>`;
+                    elem += `</div>`;
+                    elem += `<div class="rowbox">`;
+                        elem += `<div class="starbox">`;
+                            //  if문을 통해서 json에서 들어오는 grade값의 크기를 비교하는 식 넣기
+                            if(`${this.grade}` == 5){
+                                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
+                                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
+                                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
+                                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
+                                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
+                            } else if(`${this.grade}` >= 4 && `${this.grade}` <= 4.999){
+                                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
+                                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
+                                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
+                                elem += `<i class="fa-sharp fa-solid fa-star"></i>`;
+                                elem += `<i class="fa-sharp fa-solid fa-star-half-stroke"></i>`;
+                            }
+                        elem += `</div>`;
+                        elem += `<span class="grade">${this.grade}</span>`;
+                        elem += `<span class="count">(${this.count})</span>`;
+                    elem += `</div>`;
+                elem += `</div>`;
             elem += `</a>`;
         });
         $(".tabbox").append(elem);
