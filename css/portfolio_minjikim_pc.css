@@ -129,7 +129,6 @@ header .nav li.on{
     font-weight: 400;
 }
 .sec01 .inner .top .profile{
-    /* background: url(/portfolio/images/portfolio_minjikim/profile.png) no-repeat 50% 50% / cover; */
     background: url(/portfolio/images/portfolio_minjikim/profile02.png) no-repeat 50% 50% / cover;
     width: 43%;
     height: 100%;
