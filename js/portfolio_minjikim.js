@@ -30,10 +30,10 @@ $(document).scroll(function() {
 // emailjs 폼
 document.querySelector('#contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); // submit이벤트 막기
-    const fromName = document.querySelector('input[name="from_name"]').value; // 전송자 이름 추출
+    const fromName = document.querySelector('#from_name').value; // 전송자 이름 추출
 
-    emailjs.init("user_A9IWnO1ke9JXI0Fk0"); // API keys
-    emailjs.sendForm('service_ekrbite', 'template_jhlebn8', this)
+    emailjs.init("A9IWnO1ke9JXI0Fk0"); // API keys
+    emailjs.sendForm('minjiwebui', 'minjiwebuiTemplate', this)
         .then(function() {
             alert(`${fromName}님, 메일 전송 완료 되었습니다 :)`)
         }, function(error) {
