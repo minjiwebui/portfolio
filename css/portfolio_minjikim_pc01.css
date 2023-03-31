@@ -8,7 +8,7 @@
 @import url('https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
 /* swiper 8.4.6 */
 
-/* portfolio_minjikim pc */
+/* portfolio_minjikim pc : dark mode */
 
 * {
     padding: 0;
@@ -138,8 +138,11 @@ header .nav li.on{
     flex-direction: column;
     align-items: center;
 }
-.sec01 .bottom img{
+.sec01 .bottom img:nth-of-type(1){
     width: 10%;
+}
+.sec01 .bottom img:nth-of-type(2){
+    display: none;
 }
 .sec01 .bottom p{
     font-size: 30px;
@@ -147,7 +150,6 @@ header .nav li.on{
 .sec02{
     width: 100%;
     display: flex;
-    border-top: 1px solid var(--colorWhite);
 }
 .sec02 .inner{
     width: 1200px;
@@ -204,7 +206,6 @@ header .nav li.on{
 .sec03{
     width: 100%;
     display: flex;
-    border-top: 1px solid var(--colorWhite);
 }
 .sec03 .inner{
     width: 1200px;
@@ -271,7 +272,6 @@ header .nav li.on{
 .sec04{
     width: 100%;
     display: flex;
-    border-top: 1px solid var(--colorWhite);
 }
 .sec04 .inner{
     width: 1200px;
@@ -464,7 +464,6 @@ header .nav li.on{
 .sec05{
     width: 100%;
     display: flex;
-    border-top: 1px solid var(--colorWhite);
 }
 .sec05 .inner{
     width: 1200px;
@@ -551,7 +550,7 @@ header .nav li.on{
 footer{
     width: 100%;
     display: flex;
-    border-top: 1px solid var(--colorWhite);
+    border-top: 1px solid var(--colorLightGrey);
 }
 footer .inner{
     width: 1200px;
