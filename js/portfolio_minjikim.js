@@ -23,7 +23,7 @@ $(document).scroll(function() {
     $("section").each(function() {
         if (scrolltop >= $(this).offset().top) {
             $("li[data-class=" + $(this).attr('class').split(' ')[0] + "]").addClass('on').siblings().removeClass('on');
-        } else if (scrolltop >= 2627) {
+        } else if (scrolltop >= 2500) {
             $("li[data-class=sec05]").addClass('on').siblings().removeClass('on');
         }
     });
