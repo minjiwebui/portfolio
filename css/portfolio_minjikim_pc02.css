@@ -373,11 +373,11 @@ header .nav li.on{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px;
     border: 1px solid var(--colorBlack);
 }
 .sec04 .contentsbox01 .link a p{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
 }
 .sec04 .thumbnail02{
@@ -459,11 +459,11 @@ header .nav li.on{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px;
     border: 1px solid var(--colorBlack);
 }
 .sec04 .contentsbox02 .link a p{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
 }
 .sec05{
