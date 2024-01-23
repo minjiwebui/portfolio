@@ -395,15 +395,6 @@ nav .gnb2 > li:hover {
 .sec01 .minibox .disrate span{
     color: var(--colorblue);
 }
-
-
-
-
-
-
-
-
-
 footer {
     width: 100%;
     border-top: 1px solid var(--colorLightGrey);
@@ -446,6 +437,11 @@ footer .copybox {
 .copybox .btbox a:hover {
     background: var(--colorBlack);
     color: var(--colorWhite);
+}
+.cs .copytxt p:nth-of-type(1) {
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
+    font-weight: 700;
 }
 
 

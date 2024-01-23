@@ -141,46 +141,6 @@ nav a.logo {
 .sec01 .btbox02 .bottom {
     display: none;
 }
-.sec02 .inner{
-    width: 80%;
-}
-.sec02 .iconallbox{
-    display: none;
-}
-.sec02 .iconallbox02{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.sec02 .iconallbox02 .top4{
-    display: flex;
-    justify-content: center;
-}
-.sec02 .iconallbox02 .bottom{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.sec02 .iconbox{
-    width: 40%;
-    height: 290px;
-}
-.sec03 .inner{
-    width: 80%;
-}
-.sec03 .inner > div{
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-}
-.sec03 .txtbox{
-    gap: 10px;
-}
-.sec03 .product02 div:first-of-type {
-    order: unset;
-}
 .sec04 .inner{
     width: 70%;
 }

@@ -138,70 +138,6 @@ body header:first-of-type,
     /* font-size: 20px; */
     font-size: 1.25rem;
 }
-.sec02 .inner{
-    width: 90%;
-}
-.sec02 .bottom .titlebox h3{
-    /* font-size: 30px; */
-    font-size: 1.875rem;
-}
-.sec02 .iconallbox02{
-    align-items: center;
-    width: 100%;
-}
-.sec02 .iconallbox02 .bottom{
-    gap: 0px;
-}
-.sec02 .top4{
-    width: 100%;
-}
-.sec02 .top4 .iconbox{
-    width: 50%;
-    height: 257px;
-}
-.sec02 .bottom .iconbox{
-    width: 100%;
-    height: 257px;
-}
-.sec02 .iconbox .img01 {
-    background: url(/portfolio/images/artbread_sub/sec02img01.png) no-repeat 50% 50% / cover;
-    width: 90%;
-    height: 100%;
-}
-.sec02 .iconbox .img02 {
-    background: url(/portfolio/images/artbread_sub/sec02img02.png) no-repeat 50% 50% / cover;
-    width: 90%;
-    height: 100%;
-}
-.sec02 .iconbox .img03 {
-    background: url(/portfolio/images/artbread_sub/sec02img03.png) no-repeat 50% 50% / cover;
-    width: 90%;
-    height: 100%;
-}
-.sec02 .iconallbox02 span{
-    /* font-size: 23px; */
-    font-size: 1.4375rem;
-}
-.sec02 .inner .bottom{
-    width: 100%;
-    align-items: center;
-}
-.sec02 .imgallbox{
-    width: 100%;
-    gap: 30px;
-    flex-flow: unset;
-    flex-direction: column;
-    align-items: center;
-}
-.sec02 .imgbox{
-    width: 60%;
-}
-.sec03 .inner{
-    width: 90%;
-}
-.sec03 .imgbox{
-    width: 60%;
-}
 .sec04 .inner{
     width: 90%;
 }
@@ -211,11 +147,6 @@ footer .copybox {
     text-align: start;
     margin: 25px 25px 25px 25px;
     gap: 30px;
-}
-.cs .copytxt p:nth-of-type(1) {
-    /* font-size: 25px; */
-    font-size: 1.5625rem;
-    font-weight: 700;
 }
 .company .copytxt p:nth-of-type(3),
 .company .copytxt p:nth-of-type(4),
