@@ -10,9 +10,9 @@ $(".popup .fa-times").click(function() {
     $(".popup").removeClass("on");
 });
 // nav 색상 고정
-$(document).ready( function(){
-    $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
-});
+// $(document).ready( function(){
+//     $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
+// });
 // sec01 슬라이드
 var swiper1 = new Swiper(".basic01", {
     spaceBetween: 30,
@@ -27,10 +27,10 @@ var swiper1 = new Swiper(".basic01", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    // },
     slidesPerView: 1,
 });
 // sec03 이미지 탭
@@ -39,7 +39,7 @@ $(".sec03 .ybox div").click(function(){
     $(this).addClass('on').siblings().removeClass('on');
     $(".sec03 .xbox .pdbox").eq(tabindex).addClass('on').siblings().removeClass('on');
 });
-$(".sec03 .ybox div").eq(1).trigger("click")
+$(".sec03 .ybox div").eq(2).trigger("click")
 // sec04 SNS 아이콘 클릭 시 색상 변경 
 $(".snsbox .fa-heart").click(function() {
     $(this).toggleClass("on")

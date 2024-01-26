@@ -82,7 +82,7 @@ li {
     padding: 10px 30px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     width: 134px;
     cursor: pointer;
 }
@@ -211,7 +211,7 @@ nav .inner {
     align-items: center;
 }
 nav a.logo {
-    width: 158px;
+    width: 160px;
     height: 41px;
     background: url(/portfolio/images/artbread/logo.png) no-repeat 50% 50% / cover;
     text-indent: -200px;
@@ -253,10 +253,20 @@ nav .gnb2 > li:hover {
     background: url(/portfolio/images/artbread/slide02.png) no-repeat 50% 50% / cover;
     cursor: pointer;
 }
-.swiper-pagination-bullet {
+/* .swiper-pagination-bullet {
     width: 11px;
     height: 11px;
     border: 6px solid var(--colorWhite);
+} */
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    font-size: 60px;
+}
+.swiper-button-next{
+    right: 25px;
+}
+.swiper-button-prev{
+    left: 25px;
 }
 .sec02 {
     width: 100%;
@@ -290,8 +300,7 @@ nav .gnb2 > li:hover {
     display: flex;
     justify-content: center;
     margin: 0 0 20px 0;
-    /* font-size: 30px; */
-    font-size: 1.875rem;
+    font-size: 40px;
     font-weight: 700;
 }
 .sec03 .xybox {
@@ -423,12 +432,25 @@ nav .gnb2 > li:hover {
 }
 .sec04 .inner h3 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding: 0 0 15px 0;
     /* font-size: 25px; */
     font-size: 1.5625rem;
     font-weight: 700;
+}
+.sec04 .review .inner h3{
+    justify-content: flex-end;
+    align-items: center;
+}
+.sec04 .review .inner h3 > span{
+    padding: 0px 0px 0px 15px;
+}
+.sec04 .sns .inner h3 > span{
+    padding: 0px 15px 0px 0px;
+}
+.sec04 .sns .inner h3 i{
+    font-size: 30px;
+    color: #52b788;
 }
 .sec04 h3 > a {
     display: flex;
@@ -591,19 +613,25 @@ nav .gnb2 > li:hover {
     display: flex;
 }
 .sec05 .newsL {
-    padding: 0 40px 0 0;
+    padding: 0 0px 0 0;
     justify-content: flex-end;
 }
 .sec05 .newsR {
-    padding: 0 0 0 40px;
+    padding: 0 0 0 0px;
     justify-content: flex-start;
+}
+.sec05 .newsL .inner{
+    background-color: #2d6a4f;
+}
+.sec05 .newsR .inner{
+    background-color: #1b4332;
 }
 .sec05 .inner {
     display: flex;
     flex-direction: column;
-    width: 560px;
+    width: 600px;
     height: 100%;
-    padding: 30px 0;
+    padding: 30px 40px;
     justify-content: center;
 }
 .sec05 .inner h3 {
@@ -648,7 +676,7 @@ nav .gnb2 > li:hover {
     position: absolute;
     left: 0;
     top: 50%;
-    background: var(--colorBlack);
+    background: var(--colorWhite);
 }
 .sec05 .inner ul li a {
     width: 100%;
@@ -656,6 +684,12 @@ nav .gnb2 > li:hover {
     justify-content: space-between;
     align-items: center;
     font-weight: 400;
+}
+.sec05 span{
+    color: var(--colorWhite);
+}
+.sec05 h3 i{
+    color: var(--colorWhite);
 }
 footer {
     width: 100%;
