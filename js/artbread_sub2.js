@@ -10,9 +10,9 @@ $(".popup .fa-times").click(function () {
     $(".popup").removeClass("on");
 });
 // nav 색상 고정
-$(document).ready( function(){
-    $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
-});
+// $(document).ready( function(){
+//     $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
+// });
 // sec01 - json 데이터 파일 연결
 $.ajax({
     type: "GET",

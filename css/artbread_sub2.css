@@ -103,7 +103,7 @@ li {
     padding: 10px 30px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     width: 134px;
     cursor: pointer;
 }
@@ -232,7 +232,7 @@ nav .inner {
     align-items: center;
 }
 nav a.logo {
-    width: 158px;
+    width: 160px;
     height: 41px;
     background: url(/portfolio/images/artbread/logo.png) no-repeat 50% 50% / cover;
     text-indent: -200px;

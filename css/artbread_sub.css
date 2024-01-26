@@ -102,7 +102,7 @@ li {
     padding: 10px 30px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     width: 134px;
     cursor: pointer;
 }
@@ -231,7 +231,7 @@ nav .inner {
     align-items: center;
 }
 nav a.logo {
-    width: 158px;
+    width: 160px;
     height: 41px;
     background: url(/portfolio/images/artbread/logo.png) no-repeat 50% 50% / cover;
     text-indent: -200px;
@@ -493,6 +493,19 @@ nav .gnb2 > li:hover {
 }
 .sec01 .btbox02 .top2 > i{
     display: none;
+}
+.sec02{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px 100px 0px;
+}
+.sec02 .pagebox{
+    display: flex;
+    flex-direction: column;
+    width: 860px;
+    height: 100%;
 }
 .sec04{
     width: 100%;

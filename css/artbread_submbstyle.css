@@ -138,6 +138,9 @@ body header:first-of-type,
     /* font-size: 20px; */
     font-size: 1.25rem;
 }
+.sec02 .pagebox{
+    width: 500px;
+}
 .sec04 .inner{
     width: 90%;
 }
