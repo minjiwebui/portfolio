@@ -20,17 +20,17 @@ var swiper1 = new Swiper(".basic01", {
     effect: "fade",
     loop: true,
     autoplay: {
-        delay: 2500,
+        delay: 5000,
         disableOnInteraction: false,
     },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    // pagination: {
-    //     el: ".swiper-pagination",
-    //     clickable: true,
-    // },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
     slidesPerView: 1,
 });
 // sec03 이미지 탭
