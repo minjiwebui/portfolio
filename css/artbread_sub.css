@@ -247,7 +247,7 @@ nav .gnb2 {
     font-weight: 700;
 }
 nav .gnb2 > li:hover {
-    color: var(--colorGreen);
+    color: #2d6a4f;
 }
 .header2 .inner > i:first-of-type,
 .header2 .inner > i:last-of-type {
