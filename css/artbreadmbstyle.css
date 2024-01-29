@@ -115,17 +115,27 @@ body header:first-of-type,
     right: 60px;
     cursor: pointer;
 }
+.sec01{
+    margin: px px 10px px;
+}
 .sec01 .swiper {
     height: 450px;
 }
 .sec01 .swiper-slide.img01 {
-    background: url(/portfolio/images/artbread/slide01mb.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/artbread/slide01mb.jpg) no-repeat 50% 50% / cover;
 }
 .sec01 .swiper-slide.img02 {
-    background: url(/portfolio/images/artbread/slide02mb.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/artbread/slide02mb.jpg) no-repeat 50% 50% / cover;
+}
+.sec01 .swiper-slide.img01 {
+    background: url(/portfolio/images/artbread/slide03mb.jpg) no-repeat 50% 50% / cover;
+}
+.sec01 .swiper-slide.img02 {
+    background: url(/portfolio/images/artbread/slide04mb.jpg) no-repeat 50% 50% / cover;
 }
 .sec02 {
-    margin: 0 0 50px 0;
+    display: none;
+    margin: 0 0 0px 0;
 }
 .sec02 .inner h3,
 .sec02 .inner span {
@@ -136,7 +146,7 @@ body header:first-of-type,
     width: 100%;
     display: flex;
     flex: 1;
-    margin: 0 0 50px 0;
+    margin: 0 0 150px 0;
 }
 .sec03 .inner {
     margin: 0 25px 0 25px;
@@ -154,8 +164,12 @@ body header:first-of-type,
 .sec03 .pdbox {
     width: 100%;
 }
+.sec03 .ybox {
+    height: 100px;
+}
 .sec03 .ybox div {
     width: 100%;
+    height: 100%;
 }
 .sec03 .imgframe01 > div {
     display: none;
@@ -188,8 +202,8 @@ body header:first-of-type,
     line-height: 1.7;
 }
 .sec04 {
-    gap: 50px;
-    margin: 0 0 50px 0;
+    gap: 150px;
+    margin: 0 0 150px 0;
 }
 .sec04 .swiper {
     width: 100%;
@@ -270,7 +284,7 @@ body header:first-of-type,
     display: flex;
 }
 .sec05 {
-    margin: 0 0 25px 0;
+    margin: 0 0 100px 0;
 }
 .sec05 .inner ul li a {
     /* font-size: 14px; */

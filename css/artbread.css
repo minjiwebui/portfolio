@@ -241,7 +241,7 @@ nav .gnb2 > li:hover {
 }
 .header2 .popup{display: none;}
 .sec01{
-    margin: 0 0 200px 0;
+    margin: 0 0 150px 0;
 }
 .sec01 .swiper {
     width: 100%;
@@ -263,6 +263,9 @@ nav .gnb2 > li:hover {
 .sec01 .swiper-slide.img04 {
     background: url(/portfolio/images/artbread/slide04.jpg) no-repeat 50% 50% / cover;
     cursor: pointer;
+}
+.swiper-pagination{
+    display: none;
 }
 .swiper-pagination-bullet {
     width: 11px;
@@ -525,7 +528,7 @@ nav .gnb2 > li:hover {
     display: block;
 }
 .sec04 .sns .snsbox i.on{
-    color: red;
+    color: #ff477e;
 }
 .sec04 .sns .snsbox a.img01 {
     background: url(/portfolio/images/artbread/sns01.png) no-repeat 50% 50% / cover;
@@ -742,15 +745,15 @@ footer .copybox {
 }
 .scroll{
     position: fixed;
-    right: 10px;
+    right: 0px;
     top: 50%;
     transform: translateY(-50%);
-    width: 110px;
+    width: 80px;
     display: flex;
     flex-direction: column;
     z-index: 100;
     background: var(--colorWhite);
-    border: 1px solid var(--colorGreen);
+    background: #52b788;
 }
 .scroll span{
     width: 100%;
@@ -758,8 +761,7 @@ footer .copybox {
     text-align: center;
     height: 40px;
     line-height: 40px;
-    border-bottom: 1px solid var(--colorGreen);
-    color: var(--colorBlack);
+    color: var(--colorWhite);
     font-weight: 600;
     cursor: pointer;
     margin-top: -1px;
