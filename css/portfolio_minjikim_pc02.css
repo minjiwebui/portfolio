@@ -15,7 +15,7 @@
     margin: 0;
     box-sizing: border-box;
     /* line-height: 1; */
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     word-break: keep-all;
     letter-spacing: -0.02rem;
     color: var(--colorBlack);
@@ -129,7 +129,7 @@ header .nav li.on{
     font-weight: 400;
 }
 .sec01 .inner .top .profile{
-    background: url(/portfolio/images/portfolio_minjikim/profile02.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/portfolio_minjikim/profile02.jpg) no-repeat 50% 50% / cover;
     width: 43%;
     height: 100%;
 }
@@ -251,25 +251,13 @@ header .nav li.on{
     height: 100px;
 }
 .sec03 .inner .skillbox .left .skill:nth-of-type(1) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill01.png) no-repeat 50% 50% / cover;
-}
-.sec03 .inner .skillbox .left .skill:nth-of-type(2) div:first-of-type{
     background: url(/portfolio/images/portfolio_minjikim/skill02.png) no-repeat 50% 50% / cover;
 }
-.sec03 .inner .skillbox .left .skill:nth-of-type(3) div:first-of-type{
+.sec03 .inner .skillbox .left .skill:nth-of-type(2) div:first-of-type{
     background: url(/portfolio/images/portfolio_minjikim/skill03.png) no-repeat 50% 50% / cover;
 }
-.sec03 .inner .skillbox .right .skill:nth-of-type(1) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill04.png) no-repeat 50% 50% / cover;
-}
-.sec03 .inner .skillbox .right .skill:nth-of-type(2) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill05.png) no-repeat 50% 50% / cover;
-}
-.sec03 .inner .skillbox .right .skill:nth-of-type(3) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill06.png) no-repeat 50% 50% / cover;
-}
-.sec03 .inner .skillbox .right .skill:nth-of-type(4) div:first-of-type{
-    background: url(/portfolio/images/portfolio_minjikim/skill07.png) no-repeat 50% 50% / cover;
+.sec03 .inner .skillbox .left .skill:nth-of-type(3) div:first-of-type{
+    background: url(/portfolio/images/portfolio_minjikim/skill01.png) no-repeat 50% 50% / cover;
 }
 .sec04{
     width: 100%;
@@ -298,7 +286,7 @@ header .nav li.on{
     gap: 60px;
 }
 .sec04 .thumbnail01{
-    background: url(/portfolio/images/portfolio_minjikim/thumbnail01.png) no-repeat 50% 50% / cover;
+    background: url(/portfolio/images/portfolio_minjikim/thumbnail01.jpg) no-repeat 50% 50% / cover;
     width: 600px;
     height: 400px;
 }
@@ -359,11 +347,10 @@ header .nav li.on{
     border-radius: 100px;
 }
 .sec04 .contentsbox01 .color .colorbox > div:nth-of-type(1){
-    background: var(--colorGreen);
+    background: #d7f3dc;
 }
 .sec04 .contentsbox01 .color .colorbox > div:nth-of-type(2){
-    background: var(--colorWhite);
-    border: 1px solid var(--colorBlack);
+    background: #1b4332;
 }
 .sec04 .contentsbox01 .link{
     display: flex;
@@ -380,26 +367,56 @@ header .nav li.on{
     font-size: 17px;
     font-weight: 400;
 }
-.sec04 .thumbnail02{
-    background: url(/portfolio/images/portfolio_minjikim/thumbnail02.png) no-repeat 50% 50% / cover;
+
+
+
+
+.sec0402{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid var(--colorWhite);
+}
+.sec0402 .inner{
+    width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrapper{
+    width: 100%;
+}
+.sec0402 .swiper-slide{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.sec0402 .thumbnail01{
+    background: url(/portfolio/images/portfolio_minjikim/thumbnail02.jpg) no-repeat 50% 50% / cover;
     width: 600px;
     height: 400px;
 }
-.sec04 .contentsbox02{
+.sec0402 .contentsbox01{
     width: 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.sec04 .contentsbox02 .title{
+.sec0402 .contentsbox01 .title{
     display: flex;
     gap: 20px;
 }
-.sec04 .contentsbox02 .title p{
+.sec0402 .contentsbox01 .title p{
     font-size: 25px;
     font-weight: 400;
 }
-.sec04 .contentsbox02 .title span{
+.sec0402 .contentsbox01 .title span{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,62 +427,63 @@ header .nav li.on{
     padding: 5px 15px;
     border-radius: 100px;
 }
-.sec04 .contentsbox02 .concept{
+.sec0402 .contentsbox01 .concept{
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.sec04 .contentsbox02 .concept p:first-of-type{
+.sec0402 .contentsbox01 .concept p:first-of-type{
     font-size: 25px;
     font-weight: 400;
 }
-.sec04 .contentsbox02 .concept p:last-of-type{
+.sec0402 .contentsbox01 .concept p:last-of-type{
     font-size: 20px;
     font-weight: 400;
 }
-.sec04 .contentsbox02 .color{
+.sec0402 .contentsbox01 .color{
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.sec04 .contentsbox02 .color p{
+.sec0402 .contentsbox01 .color p{
     font-size: 25px;
     font-weight: 400;
 }
-.sec04 .contentsbox02 .color .colorbox{
+.sec0402 .contentsbox01 .color .colorbox{
     display: flex;
     gap: 25px;
 }
-.sec04 .contentsbox02 .color .colorbox div{
+.sec0402 .contentsbox01 .color .colorbox div{
     width: 70px;
     height: 70px;
     border-radius: 100px;
 }
-.sec04 .contentsbox02 .color .colorbox > div:nth-of-type(1){
-    background: var(--colorPinkCoral);
+.sec0402 .contentsbox01 .color .colorbox > div:nth-of-type(1){
+    background: var(--colorGreen);
 }
-.sec04 .contentsbox02 .color .colorbox > div:nth-of-type(2){
-    background: var(--colorOrange);
-}
-.sec04 .contentsbox02 .color .colorbox > div:nth-of-type(3){
+.sec0402 .contentsbox01 .color .colorbox > div:nth-of-type(2){
     background: var(--colorWhite);
     border: 1px solid var(--colorBlack);
 }
-.sec04 .contentsbox02 .link{
+.sec0402 .contentsbox01 .link{
     display: flex;
     gap: 15px;
 }
-.sec04 .contentsbox02 .link a{
+.sec0402 .contentsbox01 .link a{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
     border: 1px solid var(--colorBlack);
 }
-.sec04 .contentsbox02 .link a p{
+.sec0402 .contentsbox01 .link a p{
     font-size: 17px;
     font-weight: 400;
 }
+
+
+
+
 .sec05{
     width: 100%;
     display: flex;
