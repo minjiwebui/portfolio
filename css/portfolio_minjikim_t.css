@@ -71,6 +71,22 @@ header .inner{
 .sec04 .contentsbox02{
     width: 80%;
 }
+
+
+.sec0402 .inner{
+    width: 80%;
+}
+.sec0402 .swiper-slide{
+    flex-direction: column;
+}
+.sec0402 .contentsbox01{
+    width: 80%;
+}
+.sec0402 .contentsbox02{
+    width: 80%;
+}
+
+
 .sec05 .inner{
     width: 80%;
 }

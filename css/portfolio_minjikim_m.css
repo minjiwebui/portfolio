@@ -186,6 +186,107 @@ header .nav{
     font-size: 15px;
     font-weight: 300;
 }
+
+
+
+
+.sec0402 .inner{
+    align-items: center;
+}
+.sec0402 .swiper-slide{
+    justify-content: flex-start;
+    gap: 40px;
+}
+.sec0402 .thumbnail01{
+    width: 100%;
+    height: 300px;
+}
+.sec0402 .thumbnail02{
+    width: 100%;
+    height: 300px;
+}
+.sec0402 .contentsbox01{
+    width: 100%;
+}
+.sec0402 .contentsbox02{
+    width: 100%;
+}
+.sec0402 .contentsbox01 .title p{
+    font-weight: 300;
+}
+.sec0402 .contentsbox02 .title p{
+    font-weight: 300;
+}
+.sec0402 .contentsbox01 .title span{
+    display: none;
+}
+.sec0402 .contentsbox02 .title span{
+    display: none;
+}
+.sec0402 .contentsbox01 .concept p:first-of-type{
+    font-weight: 300;
+}
+.sec0402 .contentsbox01 .concept p:last-of-type{
+    font-size: 16px;
+    font-weight: 300;
+}
+.sec0402 .contentsbox02 .concept p:first-of-type{
+    font-weight: 300;
+}
+.sec0402 .contentsbox02 .concept p:last-of-type{
+    font-size: 16px;
+    font-weight: 300;
+}
+.sec0402 .contentsbox01 .color p{
+    font-weight: 300;
+}
+.sec0402 .contentsbox02 .color p{
+    font-weight: 300;
+}
+.sec0402 .contentsbox01 .color .colorbox{
+    gap: 15px;
+}
+.sec0402 .contentsbox02 .color .colorbox{
+    gap: 15px;
+}
+.sec0402 .contentsbox01 .color .colorbox div{
+    width: 50px;
+    height: 50px;
+}
+.sec0402 .contentsbox02 .color .colorbox div{
+    width: 50px;
+    height: 50px;
+}
+.sec0402 .contentsbox01 .link a{
+    padding: 7px;
+}
+.sec0402 .contentsbox02 .link a{
+    padding: 7px;
+}
+
+.sec04 .contentsbox01 .link a p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.sec04 .contentsbox02 .link a p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .sec05 .inner{
     width: 80%;
 }
