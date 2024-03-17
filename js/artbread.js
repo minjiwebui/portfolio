@@ -3,12 +3,12 @@ $(".submenu").hover(function () {
     $(".subgnb").toggleClass('on');
 });
 // top 검색팝업창(공통요소)
-$(".search > i").click(function() {
-    $(".popup").addClass("on");
-});
-$(".popup .fa-times").click(function() {
-    $(".popup").removeClass("on");
-});
+// $(".search > i").click(function() {
+//     $(".popup").addClass("on");
+// });
+// $(".popup .fa-times").click(function() {
+//     $(".popup").removeClass("on");
+// });
 // nav 색상 고정
 // $(document).ready( function(){
 //     $("nav .gnb2 li:nth-of-type(2)").css("color","#4d6846")
